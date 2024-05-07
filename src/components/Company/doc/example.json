@@ -1,0 +1,73 @@
+{
+  "isFull": true,
+  "list": [
+    {
+      "title": "这里填写示例标题",
+      "description": "这里填写示例说明",
+      "code": "./base.js",
+      "scope": [
+        {
+          "name": "_Company",
+          "packageName": "@components/Company"
+        }
+      ]
+    },
+    {
+      "title": "公司表单",
+      "description": "创建或修改公司信息表单",
+      "code": "./form-inner.js",
+      "scope": [
+        {
+          "name": "_Company",
+          "packageName": "@components/Company"
+        },
+        {
+          "name": "remoteLoader",
+          "packageName": "@kne/remote-loader"
+        }
+      ]
+    },
+    {
+      "title": "公司列表",
+      "description": "显示公司列表",
+      "code": "./list.js",
+      "scope": [
+        {
+          "name": "_Company",
+          "packageName": "@components/Company"
+        },
+        {
+          "name": "remoteLoader",
+          "packageName": "@kne/remote-loader"
+        },
+        {
+          "name": "lodash",
+          "packageName": "lodash"
+        }
+      ]
+    },
+    {
+      "title": "公司详情",
+      "description": "显示公司详情",
+      "code": "./detail.js",
+      "scope": [
+        {
+          "name": "_Company",
+          "packageName": "@components/Company"
+        },
+        {
+          "name": "_Resume",
+          "packageName": "@components/Resume"
+        },
+        {
+          "name": "remoteLoader",
+          "packageName": "@kne/remote-loader"
+        },
+        {
+          "name": "lodash",
+          "packageName": "lodash"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,622 @@
+{
+  "resumePositionEnum": [],
+  "channelEnum": [
+    {
+      "description": "猎聘",
+      "value": 1
+    },
+    {
+      "description": "智联",
+      "value": 2
+    },
+    {
+      "description": "智联卓聘",
+      "value": 3
+    },
+    {
+      "description": "boss直聘",
+      "value": 4
+    },
+    {
+      "description": "51job（前程无忧）",
+      "value": 5
+    },
+    {
+      "description": "58同城",
+      "value": 6
+    },
+    {
+      "description": "拉勾",
+      "value": 7
+    },
+    {
+      "description": "领英",
+      "value": 8
+    },
+    {
+      "description": "大街",
+      "value": 9
+    },
+    {
+      "description": "脉脉",
+      "value": 10
+    },
+    {
+      "description": "赶集",
+      "value": 11
+    },
+    {
+      "description": "看准网",
+      "value": 12
+    },
+    {
+      "description": "微信",
+      "value": 13
+    },
+    {
+      "description": "小程序",
+      "value": 14
+    },
+    {
+      "description": "线下",
+      "value": 15
+    },
+    {
+      "description": "供应商",
+      "value": 16
+    },
+    {
+      "description": "其他",
+      "value": 99
+    }
+  ],
+  "cardTypeEnum": [
+    {
+      "description": "身份证",
+      "value": 1
+    },
+    {
+      "description": "护照",
+      "value": 2
+    },
+    {
+      "description": "台胞证",
+      "value": 3
+    }
+  ],
+  "currentStatusEnum": [
+    {
+      "description": "离职，看机会；",
+      "value": 1
+    },
+    {
+      "description": "在职，看机会；",
+      "value": 2
+    },
+    {
+      "description": "在职，暂不考虑；",
+      "value": 3
+    }
+  ],
+  "degreeEnum": [
+    {
+      "description": "初中",
+      "value": 10
+    },
+    {
+      "description": "中专",
+      "value": 20
+    },
+    {
+      "description": "高中",
+      "value": 30
+    },
+    {
+      "description": "大专",
+      "value": 40
+    },
+    {
+      "description": "本科",
+      "value": 50
+    },
+    {
+      "description": "硕士研究生",
+      "value": 60
+    },
+    {
+      "description": "博士研究生",
+      "value": 70
+    },
+    {
+      "description": "博士后",
+      "value": 75
+    },
+    {
+      "description": "学历不限",
+      "value": 999
+    }
+  ],
+  "companyTypeEnum": [
+    {
+      "description": "其他",
+      "value": 0
+    },
+    {
+      "description": "外资",
+      "value": 1
+    },
+    {
+      "description": "合资",
+      "value": 2
+    },
+    {
+      "description": "私营/民营",
+      "value": 3
+    },
+    {
+      "description": "国有企业",
+      "value": 4
+    },
+    {
+      "description": "政府机关/非盈利",
+      "value": 5
+    },
+    {
+      "description": "事业单位",
+      "value": 6
+    }
+  ],
+  "companyScaleEnum": [
+    {
+      "description": "1-49人",
+      "value": 1
+    },
+    {
+      "description": "50-99人",
+      "value": 2
+    },
+    {
+      "description": "100-499人",
+      "value": 3
+    },
+    {
+      "description": "500-999人",
+      "value": 4
+    },
+    {
+      "description": "1000人",
+      "value": 5
+    }
+  ],
+  "nationEnum": [
+    {
+      "description": "汉族",
+      "value": 1
+    },
+    {
+      "description": "回族",
+      "value": 2
+    },
+    {
+      "description": "满族",
+      "value": 3
+    },
+    {
+      "description": "壮族",
+      "value": 4
+    },
+    {
+      "description": "维吾尔族",
+      "value": 5
+    },
+    {
+      "description": "阿昌族",
+      "value": 6
+    },
+    {
+      "description": "白族",
+      "value": 7
+    },
+    {
+      "description": "保安族",
+      "value": 8
+    },
+    {
+      "description": "布朗族",
+      "value": 9
+    },
+    {
+      "description": "布依族",
+      "value": 10
+    },
+    {
+      "description": "朝鲜族",
+      "value": 11
+    },
+    {
+      "description": "达斡尔族",
+      "value": 12
+    },
+    {
+      "description": "傣族",
+      "value": 13
+    },
+    {
+      "description": "德昂族",
+      "value": 14
+    },
+    {
+      "description": "东乡族",
+      "value": 15
+    },
+    {
+      "description": "侗族",
+      "value": 16
+    },
+    {
+      "description": "独龙族",
+      "value": 17
+    },
+    {
+      "description": "俄罗斯族",
+      "value": 18
+    },
+    {
+      "description": "鄂伦春族",
+      "value": 19
+    },
+    {
+      "description": "鄂温克族",
+      "value": 20
+    },
+    {
+      "description": "高山族",
+      "value": 21
+    },
+    {
+      "description": "仡佬族",
+      "value": 22
+    },
+    {
+      "description": "哈尼族",
+      "value": 23
+    },
+    {
+      "description": "哈萨克族",
+      "value": 24
+    },
+    {
+      "description": "赫哲族",
+      "value": 25
+    },
+    {
+      "description": "基诺族",
+      "value": 26
+    },
+    {
+      "description": "京族",
+      "value": 27
+    },
+    {
+      "description": "景颇族",
+      "value": 28
+    },
+    {
+      "description": "柯尔克孜族",
+      "value": 29
+    },
+    {
+      "description": "拉祜族",
+      "value": 30
+    },
+    {
+      "description": "黎族",
+      "value": 31
+    },
+    {
+      "description": "傈僳族",
+      "value": 32
+    },
+    {
+      "description": "珞巴族",
+      "value": 33
+    },
+    {
+      "description": "毛南族",
+      "value": 34
+    },
+    {
+      "description": "门巴族",
+      "value": 35
+    },
+    {
+      "description": "蒙古族",
+      "value": 36
+    },
+    {
+      "description": "苗族",
+      "value": 37
+    },
+    {
+      "description": "仫佬族",
+      "value": 38
+    },
+    {
+      "description": "纳西族",
+      "value": 39
+    },
+    {
+      "description": "怒族",
+      "value": 40
+    },
+    {
+      "description": "普米族",
+      "value": 41
+    },
+    {
+      "description": "羌族",
+      "value": 42
+    },
+    {
+      "description": "撒拉族",
+      "value": 43
+    },
+    {
+      "description": "畲族",
+      "value": 44
+    },
+    {
+      "description": "水族",
+      "value": 45
+    },
+    {
+      "description": "塔吉克族",
+      "value": 46
+    },
+    {
+      "description": "塔塔尔族",
+      "value": 47
+    },
+    {
+      "description": "土家族",
+      "value": 48
+    },
+    {
+      "description": "土族",
+      "value": 49
+    },
+    {
+      "description": "佤族",
+      "value": 50
+    },
+    {
+      "description": "乌孜别克族",
+      "value": 51
+    },
+    {
+      "description": "锡伯族",
+      "value": 52
+    },
+    {
+      "description": "瑶族",
+      "value": 53
+    },
+    {
+      "description": "彝族",
+      "value": 54
+    },
+    {
+      "description": "裕固族",
+      "value": 55
+    },
+    {
+      "description": "藏族",
+      "value": 56
+    }
+  ],
+  "drivingLicenseEnum": [
+    {
+      "description": "A1",
+      "value": 1
+    },
+    {
+      "description": "A2",
+      "value": 2
+    },
+    {
+      "description": "A3",
+      "value": 3
+    },
+    {
+      "description": "B1",
+      "value": 4
+    },
+    {
+      "description": "B2",
+      "value": 5
+    },
+    {
+      "description": "C1",
+      "value": 6
+    },
+    {
+      "description": "C2",
+      "value": 7
+    },
+    {
+      "description": "C3",
+      "value": 8
+    },
+    {
+      "description": "C4",
+      "value": 9
+    },
+    {
+      "description": "D",
+      "value": 10
+    },
+    {
+      "description": "E",
+      "value": 12
+    },
+    {
+      "description": "F",
+      "value": 13
+    },
+    {
+      "description": "M",
+      "value": 14
+    },
+    {
+      "description": "N",
+      "value": 15
+    },
+    {
+      "description": "P",
+      "value": 16
+    }
+  ],
+  "levelEnum": [
+    {
+      "description": "一般",
+      "value": 1
+    },
+    {
+      "description": "良好",
+      "value": 2
+    },
+    {
+      "description": "熟练",
+      "value": 3
+    },
+    {
+      "description": "精通",
+      "value": 4
+    }
+  ],
+  "createWayEnum": [
+    {
+      "description": "文件导入",
+      "value": 1
+    },
+    {
+      "description": "excel导入",
+      "value": 2
+    },
+    {
+      "description": "在线创建",
+      "value": 3
+    },
+    {
+      "description": "小程序投递",
+      "value": 4
+    },
+    {
+      "description": "数据迁移",
+      "value": 5
+    }
+  ],
+  "cooperateStatusEnum": [
+    {
+      "description": "待开发",
+      "value": 1
+    },
+    {
+      "description": "开发中",
+      "value": 2
+    },
+    {
+      "description": "已签约",
+      "value": 3
+    },
+    {
+      "description": "已终止",
+      "value": 4
+    }
+  ],
+  "positionLevelEnum": [
+    {
+      "description": "低",
+      "value": 10
+    },
+    {
+      "description": "中",
+      "value": 20
+    },
+    {
+      "description": "高",
+      "value": 30
+    }
+  ],
+  "positionTypeEnum": [
+    {
+      "description": "全职",
+      "value": 1
+    },
+    {
+      "description": "社会兼职",
+      "value": 2
+    },
+    {
+      "description": "实习",
+      "value": 3
+    },
+    {
+      "description": "学生兼职",
+      "value": 4
+    }
+  ],
+  "salaryTypeEnum": [
+    {
+      "description": "面议",
+      "value": 1
+    },
+    {
+      "description": "时薪",
+      "value": 2
+    },
+    {
+      "description": "日薪",
+      "value": 3
+    },
+    {
+      "description": "周薪",
+      "value": 4
+    },
+    {
+      "description": "月薪",
+      "value": 5
+    },
+    {
+      "description": "年薪",
+      "value": 6
+    },
+    { "description": "其他", "value": 7 }
+  ],
+  "phoneStateEnum": [
+    {
+      "value": 0,
+      "description": "空号"
+    },
+    {
+      "value": 1,
+      "description": "实号"
+    },
+    {
+      "value": 2,
+      "description": "停机"
+    },
+    {
+      "value": 3,
+      "description": "库无"
+    },
+    {
+      "value": 4,
+      "description": "沉默号"
+    },
+    {
+      "value": 5,
+      "description": "风险号"
+    }
+  ]
+}
