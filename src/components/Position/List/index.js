@@ -1,5 +1,3 @@
-const List = () => {};
-
-export default List;
+export { default as PositionList } from './PositionList';
 
 export { default as getColumns } from './getColumns';
