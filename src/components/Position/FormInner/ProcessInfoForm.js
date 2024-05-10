@@ -11,7 +11,7 @@ const ProcessInfoForm = createWithRemoteLoader({
   const [FormInfo, formModule, usePreset] = remoteModules;
   const { AdvancedSelect, TextArea } = formModule;
   const { apis } = usePreset();
-  const { getProcessAll } = apis.ats;
+
   return (
     <FormInfo
       title="招聘流程"
@@ -23,7 +23,7 @@ const ProcessInfoForm = createWithRemoteLoader({
           rule="REQ"
           single
           overlayWidth={'600px'}
-          api={getProcessAll}
+          api={apis.ats.getProcessAll}
           dataFormat={data => {
             const list = (data || []).map(item => {
               return {

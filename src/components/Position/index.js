@@ -1,11 +1,7 @@
-import style from './style.module.scss';
+import { PositionList } from './List';
 
-const Position = () => {
-  return <div>unleash creativity</div>;
-};
+export default PositionList;
 
-export default Position;
-
-export { default as List, getColumns as getListColumns } from './List';
+export * from './List';
 export * from './FormInner';
 export * from './enums';

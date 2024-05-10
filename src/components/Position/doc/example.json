@@ -2,17 +2,6 @@
   "isFull": true,
   "list": [
     {
-      "title": "这里填写示例标题",
-      "description": "这里填写示例说明",
-      "code": "./base.js",
-      "scope": [
-        {
-          "name": "_Position",
-          "packageName": "@components/Position"
-        }
-      ]
-    },
-    {
       "title": "职位表单",
       "description": "创建或修改职位信息表单",
       "code": "./form-inner.js",
@@ -20,6 +9,29 @@
         {
           "name": "_Position",
           "packageName": "@components/Position"
+        },
+        {
+          "name": "remoteLoader",
+          "packageName": "@kne/remote-loader"
+        },
+        {
+          "name": "_mockData",
+          "packageName": "./mock/process-all.json"
+        }
+      ]
+    },
+    {
+      "title": "职位列表",
+      "description": "职位列表",
+      "code": "./list.js",
+      "scope": [
+        {
+          "name": "_Position",
+          "packageName": "@components/Position"
+        },
+        {
+          "name": "_lodash",
+          "packageName": "lodash"
         },
         {
           "name": "remoteLoader",

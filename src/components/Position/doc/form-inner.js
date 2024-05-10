@@ -1,9 +1,9 @@
-const { PositionInfoForm, ProcessInfoForm, POSITION_TYPE_ENUM, POSITION_DEGREE_ENUM, EXPERIENCE_ENUM } = _Position;
+const { PositionMainForm, POSITION_TYPE_ENUM, POSITION_DEGREE_ENUM, EXPERIENCE_ENUM, POSITION_STATE_ENUM } = _Position;
 const { createWithRemoteLoader } = remoteLoader;
 const { default: mockData } = _mockData;
 
 const FormInnerExample = createWithRemoteLoader({
-  modules: ['components-core:Global@PureGlobal', 'components-core:FormInfo@Form']
+  modules: ['Global@PureGlobal', 'FormInfo@Form']
 })(({ remoteModules }) => {
   const [PureGlobal, Form] = remoteModules;
   return (
@@ -23,13 +23,13 @@ const FormInnerExample = createWithRemoteLoader({
         enums: {
           positionTypeEnum: POSITION_TYPE_ENUM,
           positionDegreeEnum: POSITION_DEGREE_ENUM,
+          positionStateEnum: POSITION_STATE_ENUM,
           experienceEnum: EXPERIENCE_ENUM
         }
       }}
     >
       <Form>
-        <PositionInfoForm />
-        <ProcessInfoForm />
+        <PositionMainForm />
       </Form>
     </PureGlobal>
   );
