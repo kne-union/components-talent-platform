@@ -16,9 +16,9 @@
 - _Resume(@components/Resume)
 
 ```jsx
-const {default:Resume} = _Resume;
-const BaseExample = ()=>{
-    return <Resume />;
+const { default: Resume } = _Resume;
+const BaseExample = () => {
+  return <Resume />;
 };
 
 render(<BaseExample />);

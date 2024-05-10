@@ -1,6 +1,6 @@
 import { createWithRemoteLoader } from '@kne/remote-loader';
 import { Space, Button } from 'antd';
-import { getListColumns as getPositionListColumns } from '@components/Position';
+import { getColumns as getPositionListColumns } from '@components/Position';
 
 const Position = createWithRemoteLoader({
   modules: [
