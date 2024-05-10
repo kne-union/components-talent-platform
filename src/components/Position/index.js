@@ -7,3 +7,5 @@ const Position = () => {
 export default Position;
 
 export { default as List, getColumns as getListColumns } from './List';
+export * from './FormInner';
+export * from './enums';

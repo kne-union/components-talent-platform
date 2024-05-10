@@ -1,5 +1,5 @@
 {
-  "isFull": false,
+  "isFull": true,
   "list": [
     {
       "title": "这里填写示例标题",
@@ -9,6 +9,25 @@
         {
           "name": "_Position",
           "packageName": "@components/Position"
+        }
+      ]
+    },
+    {
+      "title": "职位表单",
+      "description": "创建或修改职位信息表单",
+      "code": "./form-inner.js",
+      "scope": [
+        {
+          "name": "_Position",
+          "packageName": "@components/Position"
+        },
+        {
+          "name": "remoteLoader",
+          "packageName": "@kne/remote-loader"
+        },
+        {
+          "name": "_mockData",
+          "packageName": "./mock/process-all.json"
         }
       ]
     }

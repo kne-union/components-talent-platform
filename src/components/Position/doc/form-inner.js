@@ -1,35 +1,3 @@
-
-# Position
-
-
-### 概述
-
-职位
-
-
-### 示例(全屏)
-
-#### 示例代码
-
-- 这里填写示例标题
-- 这里填写示例说明
-- _Position(@components/Position)
-
-```jsx
-const { default: Position } = _Position;
-const BaseExample = () => {
-  return <Position />;
-};
-
-render(<BaseExample />);
-
-```
-
-- 职位表单
-- 创建或修改职位信息表单
-- _Position(@components/Position),remoteLoader(@kne/remote-loader),_mockData(./mock/process-all.json)
-
-```jsx
 const { PositionInfoForm, ProcessInfoForm, POSITION_TYPE_ENUM, POSITION_DEGREE_ENUM, EXPERIENCE_ENUM } = _Position;
 const { createWithRemoteLoader } = remoteLoader;
 const { default: mockData } = _mockData;
@@ -68,12 +36,3 @@ const FormInnerExample = createWithRemoteLoader({
 });
 
 render(<FormInnerExample />);
-
-```
-
-
-### API
-
-|属性名|说明|类型|默认值|
-|  ---  | ---  | --- | --- |
-

@@ -1,0 +1,650 @@
+{
+  "msg": "",
+  "data": [
+    {
+      "id": 1,
+      "atsFlag": "ERC",
+      "name": "默认流程",
+      "phase": {
+        "10": "初筛",
+        "20": "顾问面试",
+        "30": "推荐简历",
+        "40": "客户面试",
+        "50": "Offer",
+        "60": "入职",
+        "70": "保证期"
+      },
+      "intoFinal": [15, 16],
+      "forceAuthorization": {
+        "phase": [60],
+        "operation": [9]
+      },
+      "remindAuthorization": [
+        {
+          "phase": [20],
+          "operation": [1]
+        },
+        {
+          "phase": [30],
+          "operation": [1]
+        },
+        {
+          "phase": [40],
+          "operation": [1]
+        },
+        {
+          "phase": [50],
+          "operation": [1]
+        },
+        {
+          "phase": [60],
+          "operation": [9]
+        }
+      ],
+      "desc": "默认流程",
+      "transactions": {
+        "1": [
+          {
+            "operation": 1,
+            "toState": 2,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "2": [
+          {
+            "operation": 2,
+            "toState": 3,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "3": [
+          {
+            "operation": 1,
+            "toState": 4,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "4": [
+          {
+            "operation": 3,
+            "toState": 5,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "5": [
+          {
+            "operation": 1,
+            "toState": 6,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "6": [
+          {
+            "operation": 4,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 23,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "7": [
+          {
+            "operation": 5,
+            "toState": 8,
+            "approval": false
+          },
+          {
+            "operation": 6,
+            "toState": 9,
+            "approval": false
+          },
+          {
+            "operation": 7,
+            "toState": 10,
+            "approval": false
+          }
+        ],
+        "8": [
+          {
+            "operation": 4,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 23,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 1,
+            "toState": 11,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "9": [
+          {
+            "operation": 4,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 23,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 1,
+            "toState": 11,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "10": [
+          {
+            "operation": 4,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 23,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 1,
+            "toState": 11,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "11": [
+          {
+            "operation": 8,
+            "toState": 12,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "12": [
+          {
+            "operation": 1,
+            "toState": 13,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "13": [
+          {
+            "operation": 9,
+            "toState": 14,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "14": [
+          {
+            "operation": 10,
+            "toState": 15,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ]
+      },
+      "intoOfferApproval": []
+    },
+    {
+      "id": 2,
+      "atsFlag": "ERC",
+      "name": "简要流程",
+      "phase": {
+        "10": "初筛",
+        "30": "推荐简历",
+        "40": "客户面试",
+        "50": "Offer",
+        "60": "入职",
+        "70": "保证期"
+      },
+      "intoFinal": [15, 16],
+      "forceAuthorization": {
+        "phase": [60],
+        "operation": [9]
+      },
+      "remindAuthorization": [
+        {
+          "phase": [30],
+          "operation": [1]
+        },
+        {
+          "phase": [40],
+          "operation": [1]
+        },
+        {
+          "phase": [50],
+          "operation": [1]
+        },
+        {
+          "phase": [60],
+          "operation": [9]
+        }
+      ],
+      "desc": "简要流程",
+      "transactions": {
+        "1": [
+          {
+            "operation": 1,
+            "toState": 4,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "4": [
+          {
+            "operation": 3,
+            "toState": 5,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "5": [
+          {
+            "operation": 1,
+            "toState": 6,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "6": [
+          {
+            "operation": 4,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 23,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "7": [
+          {
+            "operation": 5,
+            "toState": 8,
+            "approval": false
+          },
+          {
+            "operation": 6,
+            "toState": 9,
+            "approval": false
+          },
+          {
+            "operation": 7,
+            "toState": 10,
+            "approval": false
+          }
+        ],
+        "8": [
+          {
+            "operation": 4,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 23,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 1,
+            "toState": 11,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "9": [
+          {
+            "operation": 4,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 23,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 1,
+            "toState": 11,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "10": [
+          {
+            "operation": 4,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 23,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 1,
+            "toState": 11,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "11": [
+          {
+            "operation": 8,
+            "toState": 12,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "12": [
+          {
+            "operation": 1,
+            "toState": 13,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "13": [
+          {
+            "operation": 9,
+            "toState": 14,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "14": [
+          {
+            "operation": 10,
+            "toState": 15,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ]
+      },
+      "intoOfferApproval": []
+    },
+    {
+      "id": 3,
+      "atsFlag": "ERC",
+      "name": "极简流程",
+      "phase": {
+        "10": "初筛",
+        "30": "推荐简历",
+        "40": "客户面试"
+      },
+      "intoFinal": [17, 16],
+      "forceAuthorization": {
+        "phase": [40],
+        "operation": [1]
+      },
+      "remindAuthorization": [
+        {
+          "phase": [30],
+          "operation": [1]
+        },
+        {
+          "phase": [40],
+          "operation": [1]
+        }
+      ],
+      "desc": "极简流程",
+      "transactions": {
+        "1": [
+          {
+            "operation": 1,
+            "toState": 4,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "4": [
+          {
+            "operation": 3,
+            "toState": 5,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "5": [
+          {
+            "operation": 1,
+            "toState": 6,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "6": [
+          {
+            "operation": 4,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 23,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "7": [
+          {
+            "operation": 5,
+            "toState": 8,
+            "approval": false
+          },
+          {
+            "operation": 6,
+            "toState": 9,
+            "approval": false
+          },
+          {
+            "operation": 7,
+            "toState": 10,
+            "approval": false
+          }
+        ],
+        "8": [
+          {
+            "operation": 4,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 23,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 1,
+            "toState": 17,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "9": [
+          {
+            "operation": 4,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 23,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 1,
+            "toState": 17,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ],
+        "10": [
+          {
+            "operation": 4,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 23,
+            "toState": 7,
+            "approval": false
+          },
+          {
+            "operation": 1,
+            "toState": 17,
+            "approval": false
+          },
+          {
+            "operation": 11,
+            "toState": 16,
+            "approval": false
+          }
+        ]
+      },
+      "intoOfferApproval": []
+    }
+  ],
+  "code": 0,
+  "success": true,
+  "failure": false
+}
