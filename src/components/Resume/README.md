@@ -37,11 +37,15 @@ const BaseExample = createWithRemoteLoader({
   modules: ['components-core:Global@PureGlobal']
 })(({ remoteModules }) => {
   const [PureGlobal] = remoteModules;
-  return <PureGlobal preset={{
-    enums
-  }}>
-    <BasicInfoHeader data={resume.data} />
-  </PureGlobal>;
+  return (
+    <PureGlobal
+      preset={{
+        enums
+      }}
+    >
+      <BasicInfoHeader data={resume.data} />
+    </PureGlobal>
+  );
 });
 
 render(<BaseExample />);
@@ -60,19 +64,24 @@ const BaseExample = createWithRemoteLoader({
   modules: ['components-core:Global@PureGlobal']
 })(({ remoteModules }) => {
   const [PureGlobal] = remoteModules;
-  return <PureGlobal preset={{
-    apis: {
-      oss: {
-        loader: () => {
-          return new Promise((resolve) => {
-            resolve(window.PUBLIC_URL + '/avatar.png');
-          });
-        }
-      }
-    }, enums
-  }}>
-    <List dataSource={resume.data.pageData} />
-  </PureGlobal>;
+  return (
+    <PureGlobal
+      preset={{
+        apis: {
+          oss: {
+            loader: () => {
+              return new Promise(resolve => {
+                resolve(window.PUBLIC_URL + '/avatar.png');
+              });
+            }
+          }
+        },
+        enums
+      }}
+    >
+      <List dataSource={resume.data.pageData} />
+    </PureGlobal>
+  );
 });
 
 render(<BaseExample />);
