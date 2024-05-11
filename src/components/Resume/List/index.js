@@ -24,8 +24,9 @@ const ResumeList = createWithRemoteLoader({
         const skillTags = get(data, 'tags.skillsTags');
         const works = get(data, 'works');
         return (
-          <div className={classnames(className, style['list-item'])}>
+          <List.Item className={classnames(className, style['list-item'])}>
             <CardView
+              className={style['list-item-card-view']}
               avatar={<Image.Avatar id={get(data, 'photo')} size={50} gender={get(data, 'gender')} />}
               title={get(data, 'name') || '姓名缺失'}
               attributes={[
@@ -93,7 +94,7 @@ const ResumeList = createWithRemoteLoader({
                 )
               }
             />
-          </div>
+          </List.Item>
         );
       }}
     />

@@ -7,11 +7,18 @@
 }
 
 .list-item {
-  padding: 24px 16px 28px;
+  &:global(.ant-list-item) {
+    padding: 24px 16px 28px;
+    display: block;
+  }
 
   :global {
     .card-view-title {
       font-weight: normal;
     }
   }
+}
+
+.list-item-card-view {
+  width: 100%;
 }
