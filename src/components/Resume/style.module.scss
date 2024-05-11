@@ -1,0 +1,17 @@
+.basic-info-header {
+  :global {
+    .card-view-avatar {
+      padding-right: 8px;
+    }
+  }
+}
+
+.list-item {
+  padding: 24px 16px 28px;
+
+  :global {
+    .card-view-title {
+      font-weight: normal;
+    }
+  }
+}

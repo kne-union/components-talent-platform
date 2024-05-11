@@ -11,7 +11,7 @@ const componentsCoreRemote = {
   remote: 'components-core',
   url: 'https://registry.npmmirror.com',
   tpl: '{{url}}/@kne-components%2f{{remote}}/{{version}}/files/build',
-  defaultVersion: '0.1.26'
+  defaultVersion: '0.1.33'
 };
 
 remoteLoaderPreset({
@@ -28,7 +28,7 @@ remoteLoaderPreset({
       remote: 'components-view',
       url: 'https://registry.npmmirror.com',
       tpl: '{{url}}/@kne-components%2f{{remote}}/{{version}}/files/build',
-      defaultVersion: '0.1.5'
+      defaultVersion: '0.1.9'
     },
     'components-talent-platform':
       process.env.NODE_ENV === 'development'
