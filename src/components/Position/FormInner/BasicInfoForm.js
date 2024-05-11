@@ -2,7 +2,7 @@ import React from 'react';
 import { createWithRemoteLoader } from '@kne/remote-loader';
 
 const BasicInfoForm = createWithRemoteLoader({
-  modules: ['FormInfo', 'FormInfo@formModule', 'Enum']
+  modules: ['components-core:FormInfo', 'components-core:FormInfo@formModule', 'components-core:Enum']
 })(({ remoteModules }) => {
   const [FormInfo, formModule, Enum] = remoteModules;
   const { Input, Select, DatePickerToday, useFormContext } = formModule;

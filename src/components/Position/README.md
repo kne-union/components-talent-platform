@@ -13,15 +13,15 @@
 
 - 职位表单
 - 创建或修改职位信息表单
-- _Position(@components/Position),remoteLoader(@kne/remote-loader),_mockData(./mock/process-all.json)
+- _Position(@components/Position),remoteLoader(@kne/remote-loader),_mockData(./mock)
 
 ```jsx
 const { PositionMainForm, POSITION_TYPE_ENUM, POSITION_DEGREE_ENUM, EXPERIENCE_ENUM, POSITION_STATE_ENUM } = _Position;
 const { createWithRemoteLoader } = remoteLoader;
-const { default: mockData } = _mockData;
+const { processAllData } = _mockData;
 
 const FormInnerExample = createWithRemoteLoader({
-  modules: ['Global@PureGlobal', 'FormInfo@Form']
+  modules: ['components-core:Global@PureGlobal', 'components-core:FormInfo@Form']
 })(({ remoteModules }) => {
   const [PureGlobal, Form] = remoteModules;
   return (
@@ -32,7 +32,7 @@ const FormInnerExample = createWithRemoteLoader({
             getProcessAll: {
               loader: async () => {
                 return new Promise(resolve => {
-                  resolve(mockData.data);
+                  resolve(processAllData.data);
                 });
               }
             }
@@ -59,16 +59,16 @@ render(<FormInnerExample />);
 
 - 职位列表
 - 职位列表
-- _Position(@components/Position),_lodash(lodash),remoteLoader(@kne/remote-loader),_mockData(./mock/process-all.json)
+- _Position(@components/Position),_lodash(lodash),remoteLoader(@kne/remote-loader),_mockData(./mock)
 
 ```jsx
 const { PositionList, POSITION_TYPE_ENUM, POSITION_DEGREE_ENUM, EXPERIENCE_ENUM, POSITION_STATE_ENUM } = _Position;
 const { createWithRemoteLoader } = remoteLoader;
 const { range } = _lodash;
-const { default: mockData } = _mockData;
+const { processAllData } = _mockData;
 
 const ListExample = createWithRemoteLoader({
-  modules: ['Global@PureGlobal', 'Layout']
+  modules: ['components-core:Global@PureGlobal', 'components-core:Layout']
 })(({ remoteModules }) => {
   const [PureGlobal, Layout] = remoteModules;
   return (
@@ -89,7 +89,7 @@ const ListExample = createWithRemoteLoader({
                     return {
                       id: index,
                       name: '职位名称',
-                      companyName: '职位所属公司名称',
+                      clientName: '职位所属公司名称',
                       level: '1',
                       description: '测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试'
                     };
@@ -103,7 +103,7 @@ const ListExample = createWithRemoteLoader({
             getProcessAll: {
               loader: async () => {
                 return new Promise(resolve => {
-                  resolve(mockData.data);
+                  resolve(processAllData.data);
                 });
               }
             }
@@ -119,6 +119,62 @@ const ListExample = createWithRemoteLoader({
 });
 
 render(<ListExample />);
+
+```
+
+- 职位详情
+- 显示职位详情
+- _Position(@components/Position),_Resume(@components/Resume),remoteLoader(@kne/remote-loader),lodash(lodash),_mockData(./mock)
+
+```jsx
+const { Detail, POSITION_TYPE_ENUM, POSITION_DEGREE_ENUM, EXPERIENCE_ENUM, POSITION_STATE_ENUM } = _Position;
+const { enums: resumeEnums } = _Resume;
+const { createWithRemoteLoader } = remoteLoader;
+const { range } = lodash;
+const { processAllData, processDetailData } = _mockData;
+
+const DetailExample = createWithRemoteLoader({
+  modules: ['components-core:Global@PureGlobal', 'components-core:Layout']
+})(({ remoteModules }) => {
+  const [PureGlobal, Layout] = remoteModules;
+  return (
+    <PureGlobal
+      preset={{
+        enums: {
+          ...resumeEnums,
+          positionTypeEnum: POSITION_TYPE_ENUM,
+          positionDegreeEnum: POSITION_DEGREE_ENUM,
+          positionStateEnum: POSITION_STATE_ENUM,
+          experienceEnum: EXPERIENCE_ENUM
+        },
+        apis: {
+          company: {
+            detail: {
+              loader: async () => {
+                return processDetailData.data;
+              }
+            }
+          },
+          ats: {
+            getProcessAll: {
+              loader: async () => {
+                return new Promise(resolve => {
+                  resolve(processAllData.data);
+                });
+              }
+            }
+          }
+        }
+      }}
+    >
+      <Layout navigation={{ isFixed: false }}>
+        <Detail />
+      </Layout>
+    </PureGlobal>
+  );
+});
+
+render(<DetailExample />);
 
 ```
 
