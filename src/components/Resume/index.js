@@ -7,3 +7,5 @@ const Resume = () => {
 export default Resume;
 
 export { default as enums } from './enums.json';
+export { default as BasicInfoHeader } from './BasicInfoHeader';
+export { default as List } from './List';

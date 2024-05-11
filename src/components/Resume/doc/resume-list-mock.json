@@ -1,0 +1,3075 @@
+{
+  "msg": "",
+  "data": {
+    "totalCount": 48272,
+    "pageData": [
+      {
+        "id": "310778863456092160",
+        "channel": null,
+        "otherChannelName": null,
+        "createWay": null,
+        "photo": null,
+        "name": "小李",
+        "gender": "M",
+        "birth": "2019-01-07T00:00:00.000+08:00",
+        "age": 5,
+        "birthFromAge": null,
+        "degree": 30,
+        "currentLocation": "050090",
+        "phoneRegionCode": null,
+        "phone": null,
+        "phoneCheck": null,
+        "virtualPhone": null,
+        "virtualPhoneTime": null,
+        "otherPhoneRegionCode": null,
+        "otherPhone": null,
+        "otherPhoneCheck": null,
+        "email": null,
+        "otherEmail": null,
+        "wechat": null,
+        "cardType": null,
+        "card": null,
+        "nativePlace": null,
+        "marital": null,
+        "race": null,
+        "nationality": null,
+        "politicalStatus": null,
+        "height": null,
+        "weight": null,
+        "currentStatus": null,
+        "currentType": null,
+        "currentSalary": null,
+        "currentSalaryType": null,
+        "currentSalaryMin": null,
+        "currentSalaryMax": null,
+        "expectedSalary": null,
+        "expectedSalaryMin": null,
+        "expectedSalaryMax": null,
+        "expectedSalaryType": null,
+        "selfRemark": null,
+        "otherInfo": null,
+        "expectedLocations": null,
+        "expectedWorkTitle": null,
+        "expectedIndustry": null,
+        "expectedPositionType": null,
+        "workExperience": 0,
+        "workStartTime": "2024-01-07T00:00:00.000+08:00",
+        "works": [
+          {
+            "id": "310778863456092161",
+            "company": "测试退票公司",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": "测试公司",
+            "functionCode": null,
+            "department": "公司测试",
+            "rank": null,
+            "salary": null,
+            "salaryType": null,
+            "salaryMax": null,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": null,
+            "departure": null,
+            "startTime": "2024-01-07T00:00:00.000+08:00",
+            "endTime": "2024-11-07T00:00:00.000+08:00",
+            "soFar": null,
+            "top500": null,
+            "isJoin": null,
+            "isOn": true
+          }
+        ],
+        "projects": null,
+        "educations": [
+          {
+            "id": "310778863456092162",
+            "school": "小学生",
+            "degree": 30,
+            "subject": "测试公司",
+            "unifiedEnrolment": null,
+            "startTime": "2024-01-07T00:00:00.000+08:00",
+            "endTime": "2024-12-07T00:00:00.000+08:00",
+            "soFar": null,
+            "is985": null,
+            "is211": null,
+            "two": null,
+            "isStudyAbroad": null,
+            "qs100": null
+          }
+        ],
+        "skills": null,
+        "languages": null,
+        "trainings": null,
+        "certificates": null,
+        "resumeFiles": null,
+        "createdBy": {
+          "coId": 1,
+          "orgId": 550,
+          "uid": 107,
+          "appId": 1,
+          "termId": 192410944
+        },
+        "folderIds": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "tags": null,
+        "is985": null,
+        "is211": null,
+        "two": null,
+        "qs100": null,
+        "isUnifiedEnrolment": null,
+        "isStudyAbroad": null,
+        "reTag": null,
+        "highlights": null,
+        "risk": null,
+        "industry": null,
+        "function": null,
+        "industryCode": null,
+        "functionCode": null,
+        "expectFunction": null,
+        "expectFunctionCode": null,
+        "expectedIndustryCode": null,
+        "lastAddDate": null,
+        "isAuthorized": false,
+        "candidateUid": null,
+        "resumeLock": null,
+        "manualTagIds": null,
+        "manualTagNames": null,
+        "notes": null,
+        "mergedTo": null,
+        "isDeleted": null,
+        "explanation": null,
+        "numOfRemark": 0,
+        "handsOffInfo": {
+          "effect": true,
+          "workExperienceIds": ["310778863456092161"],
+          "companyNames": ["测试退票公司"],
+          "approvalProcessId": null,
+          "approvalStatus": null,
+          "processing": false
+        },
+        "resumeNoteMatch": null,
+        "locked": false
+      },
+      {
+        "id": "310770624177897472",
+        "channel": null,
+        "otherChannelName": null,
+        "createWay": null,
+        "photo": null,
+        "name": "欣在",
+        "gender": "F",
+        "birth": "1999-10-07T00:00:00.000+08:00",
+        "age": 24,
+        "birthFromAge": null,
+        "degree": null,
+        "currentLocation": "020",
+        "phoneRegionCode": null,
+        "phone": null,
+        "phoneCheck": null,
+        "virtualPhone": null,
+        "virtualPhoneTime": null,
+        "otherPhoneRegionCode": null,
+        "otherPhone": null,
+        "otherPhoneCheck": null,
+        "email": null,
+        "otherEmail": null,
+        "wechat": null,
+        "cardType": null,
+        "card": null,
+        "nativePlace": null,
+        "marital": null,
+        "race": null,
+        "nationality": null,
+        "politicalStatus": null,
+        "height": null,
+        "weight": null,
+        "currentStatus": null,
+        "currentType": null,
+        "currentSalary": null,
+        "currentSalaryType": null,
+        "currentSalaryMin": null,
+        "currentSalaryMax": null,
+        "expectedSalary": null,
+        "expectedSalaryMin": null,
+        "expectedSalaryMax": null,
+        "expectedSalaryType": null,
+        "selfRemark": null,
+        "otherInfo": null,
+        "expectedLocations": null,
+        "expectedWorkTitle": null,
+        "expectedIndustry": null,
+        "expectedPositionType": null,
+        "workExperience": null,
+        "workStartTime": null,
+        "works": [
+          {
+            "id": "310770624177897473",
+            "company": "测试退票公司上海分公司",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": "℃",
+            "functionCode": null,
+            "department": null,
+            "rank": null,
+            "salary": null,
+            "salaryType": null,
+            "salaryMax": null,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": null,
+            "departure": null,
+            "startTime": null,
+            "endTime": null,
+            "soFar": null,
+            "top500": null,
+            "isJoin": null,
+            "isOn": true
+          }
+        ],
+        "projects": null,
+        "educations": [],
+        "skills": null,
+        "languages": null,
+        "trainings": null,
+        "certificates": null,
+        "resumeFiles": null,
+        "createdBy": {
+          "coId": 1,
+          "orgId": 550,
+          "uid": 107,
+          "appId": 1,
+          "termId": 192410944
+        },
+        "folderIds": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "tags": null,
+        "is985": null,
+        "is211": null,
+        "two": null,
+        "qs100": null,
+        "isUnifiedEnrolment": null,
+        "isStudyAbroad": null,
+        "reTag": null,
+        "highlights": null,
+        "risk": null,
+        "industry": null,
+        "function": null,
+        "industryCode": null,
+        "functionCode": null,
+        "expectFunction": null,
+        "expectFunctionCode": null,
+        "expectedIndustryCode": null,
+        "lastAddDate": null,
+        "isAuthorized": false,
+        "candidateUid": null,
+        "resumeLock": null,
+        "manualTagIds": null,
+        "manualTagNames": null,
+        "notes": null,
+        "mergedTo": null,
+        "isDeleted": null,
+        "explanation": null,
+        "numOfRemark": 0,
+        "handsOffInfo": {
+          "effect": true,
+          "workExperienceIds": ["310770624177897473"],
+          "companyNames": ["测试退票公司上海分公司"],
+          "approvalProcessId": null,
+          "approvalStatus": null,
+          "processing": false
+        },
+        "resumeNoteMatch": null,
+        "locked": false
+      },
+      {
+        "id": "310468818298208256",
+        "channel": null,
+        "otherChannelName": null,
+        "createWay": null,
+        "photo": null,
+        "name": "李3",
+        "gender": "M",
+        "birth": "2024-04-06T00:00:00.000+08:00",
+        "age": 0,
+        "birthFromAge": null,
+        "degree": 40,
+        "currentLocation": "010",
+        "phoneRegionCode": null,
+        "phone": null,
+        "phoneCheck": null,
+        "virtualPhone": null,
+        "virtualPhoneTime": null,
+        "otherPhoneRegionCode": null,
+        "otherPhone": null,
+        "otherPhoneCheck": null,
+        "email": null,
+        "otherEmail": null,
+        "wechat": null,
+        "cardType": null,
+        "card": null,
+        "nativePlace": null,
+        "marital": null,
+        "race": null,
+        "nationality": null,
+        "politicalStatus": null,
+        "height": null,
+        "weight": null,
+        "currentStatus": null,
+        "currentType": null,
+        "currentSalary": null,
+        "currentSalaryType": null,
+        "currentSalaryMin": null,
+        "currentSalaryMax": null,
+        "expectedSalary": null,
+        "expectedSalaryMin": null,
+        "expectedSalaryMax": null,
+        "expectedSalaryType": null,
+        "selfRemark": null,
+        "otherInfo": null,
+        "expectedLocations": null,
+        "expectedWorkTitle": null,
+        "expectedIndustry": null,
+        "expectedPositionType": null,
+        "workExperience": 4,
+        "workStartTime": "2019-09-01T00:00:00.000+08:00",
+        "works": [
+          {
+            "id": "310468818306596864",
+            "company": "华住酒店集团",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": "1111111111",
+            "functionCode": null,
+            "department": "研发中心",
+            "rank": null,
+            "salary": null,
+            "salaryType": null,
+            "salaryMax": null,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": "华住酒店集团华住酒店集团华住酒店集团华住酒店集团华住酒店集团华住酒店集团华住酒店集团",
+            "departure": null,
+            "startTime": "2020-11-01T00:00:00.000+08:00",
+            "endTime": "2022-04-01T00:00:00.000+08:00",
+            "soFar": null,
+            "top500": null,
+            "isJoin": null,
+            "isOn": false
+          },
+          {
+            "id": "310468818306596865",
+            "company": "上海纳客宝信息有限公司",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": "11111111",
+            "functionCode": null,
+            "department": null,
+            "rank": null,
+            "salary": null,
+            "salaryType": null,
+            "salaryMax": null,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": "华住酒店集团华住酒店集团华住酒店集团华住酒店集团华住酒店集团华住酒店集团华住酒店集团",
+            "departure": null,
+            "startTime": "2019-09-01T00:00:00.000+08:00",
+            "endTime": "2020-10-01T00:00:00.000+08:00",
+            "soFar": null,
+            "top500": null,
+            "isJoin": null,
+            "isOn": false
+          }
+        ],
+        "projects": null,
+        "educations": [
+          {
+            "id": "310468818306596871",
+            "school": "北京理工大学",
+            "degree": 40,
+            "subject": "计算机科学与技术",
+            "unifiedEnrolment": "Y",
+            "startTime": "2017-01-01T00:00:00.000+08:00",
+            "endTime": "2020-01-01T00:00:00.000+08:00",
+            "soFar": false,
+            "is985": true,
+            "is211": true,
+            "two": true,
+            "isStudyAbroad": null,
+            "qs100": null
+          }
+        ],
+        "skills": null,
+        "languages": null,
+        "trainings": null,
+        "certificates": null,
+        "resumeFiles": null,
+        "createdBy": {
+          "coId": 1,
+          "orgId": 103,
+          "uid": 107,
+          "appId": 1,
+          "termId": 192410959
+        },
+        "folderIds": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "tags": {
+          "industries": [],
+          "posTags": [
+            {
+              "tagName": "测试工程师",
+              "tagWeight": 1.5188269114494324
+            },
+            {
+              "tagName": "软件测试",
+              "tagWeight": 1.5188269114494324
+            },
+            {
+              "tagName": "软件测试工程师",
+              "tagWeight": 0.661026120185852
+            },
+            {
+              "tagName": "功能测试",
+              "tagWeight": 0.6060913467407225
+            },
+            {
+              "tagName": "app测试工程师",
+              "tagWeight": 0.5783346033096313
+            },
+            {
+              "tagName": "手机测试",
+              "tagWeight": 0.5759783363342286
+            },
+            {
+              "tagName": "app软件测试工程师",
+              "tagWeight": 0.5724674320220947
+            },
+            {
+              "tagName": "测试开发工程师",
+              "tagWeight": 0.5622772908210755
+            },
+            {
+              "tagName": "功能测试工程师",
+              "tagWeight": 0.5562388014793396
+            },
+            {
+              "tagName": "手机软件测试工程师",
+              "tagWeight": 0.5554150629043579
+            }
+          ],
+          "posTypes": [
+            {
+              "tagName": "软件测试",
+              "tagWeight": 3.8688427126077936
+            },
+            {
+              "tagName": "系统测试",
+              "tagWeight": 0.911420653068982
+            },
+            {
+              "tagName": "软件工程师",
+              "tagWeight": 0.8423528547042732
+            },
+            {
+              "tagName": "测试工程师",
+              "tagWeight": 0.7617117810896441
+            },
+            {
+              "tagName": "测试员",
+              "tagWeight": 0.5165151944769006
+            }
+          ],
+          "skillsTags": [
+            {
+              "tagName": "jira",
+              "tagWeight": 0.6422678470611572
+            },
+            {
+              "tagName": "商务",
+              "tagWeight": 0.628066382408142
+            },
+            {
+              "tagName": "jmeter",
+              "tagWeight": 0.6098932266235352
+            },
+            {
+              "tagName": "自动化测试",
+              "tagWeight": 0.6001462936401367
+            },
+            {
+              "tagName": "禅道",
+              "tagWeight": 0.5987907409667969
+            },
+            {
+              "tagName": "接口测试",
+              "tagWeight": 0.598167371749878
+            },
+            {
+              "tagName": "fiddler",
+              "tagWeight": 0.5636950016021729
+            },
+            {
+              "tagName": "linux命令",
+              "tagWeight": 0.5483886718750001
+            },
+            {
+              "tagName": "功能测试",
+              "tagWeight": 0.5231624126434327
+            },
+            {
+              "tagName": "redis",
+              "tagWeight": 0.5013032913208008
+            },
+            {
+              "tagName": "linux系统",
+              "tagWeight": 0.4913677215576172
+            },
+            {
+              "tagName": "mysql",
+              "tagWeight": 0.4868952751159668
+            },
+            {
+              "tagName": "xmind",
+              "tagWeight": 0.4339586734771729
+            },
+            {
+              "tagName": "ui",
+              "tagWeight": 0.3531702995300293
+            },
+            {
+              "tagName": "酒店管理",
+              "tagWeight": 0.350331130027771
+            },
+            {
+              "tagName": "crm",
+              "tagWeight": 0.3101651525497437
+            },
+            {
+              "tagName": "产品经理",
+              "tagWeight": 0.3100674629211426
+            },
+            {
+              "tagName": "项目管理",
+              "tagWeight": 0.2803616285324097
+            },
+            {
+              "tagName": "酒店预订",
+              "tagWeight": 0.26348355889320374
+            },
+            {
+              "tagName": "数据分析",
+              "tagWeight": 0.22049238681793215
+            },
+            {
+              "tagName": "pms",
+              "tagWeight": 0.07577931046485901
+            },
+            {
+              "tagName": "sso",
+              "tagWeight": 0.07078662276268005
+            }
+          ]
+        },
+        "is985": null,
+        "is211": null,
+        "two": null,
+        "qs100": null,
+        "isUnifiedEnrolment": null,
+        "isStudyAbroad": null,
+        "reTag": null,
+        "highlights": null,
+        "risk": null,
+        "industry": null,
+        "function": null,
+        "industryCode": null,
+        "functionCode": null,
+        "expectFunction": null,
+        "expectFunctionCode": null,
+        "expectedIndustryCode": null,
+        "lastAddDate": null,
+        "isAuthorized": false,
+        "candidateUid": null,
+        "resumeLock": null,
+        "manualTagIds": null,
+        "manualTagNames": null,
+        "notes": null,
+        "mergedTo": null,
+        "isDeleted": null,
+        "explanation": null,
+        "numOfRemark": 0,
+        "handsOffInfo": {
+          "effect": false,
+          "workExperienceIds": null,
+          "companyNames": null,
+          "approvalProcessId": null,
+          "approvalStatus": null,
+          "processing": false
+        },
+        "resumeNoteMatch": null,
+        "locked": false
+      },
+      {
+        "id": "310469011131334656",
+        "channel": null,
+        "otherChannelName": null,
+        "createWay": null,
+        "photo": null,
+        "name": "李4",
+        "gender": "M",
+        "birth": "2024-01-06T00:00:00.000+08:00",
+        "age": 0,
+        "birthFromAge": null,
+        "degree": 40,
+        "currentLocation": "020",
+        "phoneRegionCode": null,
+        "phone": null,
+        "phoneCheck": null,
+        "virtualPhone": null,
+        "virtualPhoneTime": null,
+        "otherPhoneRegionCode": null,
+        "otherPhone": null,
+        "otherPhoneCheck": null,
+        "email": null,
+        "otherEmail": null,
+        "wechat": null,
+        "cardType": null,
+        "card": null,
+        "nativePlace": null,
+        "marital": null,
+        "race": null,
+        "nationality": null,
+        "politicalStatus": null,
+        "height": null,
+        "weight": null,
+        "currentStatus": null,
+        "currentType": null,
+        "currentSalary": null,
+        "currentSalaryType": null,
+        "currentSalaryMin": null,
+        "currentSalaryMax": null,
+        "expectedSalary": null,
+        "expectedSalaryMin": null,
+        "expectedSalaryMax": null,
+        "expectedSalaryType": null,
+        "selfRemark": null,
+        "otherInfo": null,
+        "expectedLocations": null,
+        "expectedWorkTitle": null,
+        "expectedIndustry": null,
+        "expectedPositionType": null,
+        "workExperience": 4,
+        "workStartTime": "2019-09-01T00:00:00.000+08:00",
+        "works": [
+          {
+            "id": "310469011131334657",
+            "company": "华住酒店集团",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": null,
+            "functionCode": null,
+            "department": "研发中心",
+            "rank": null,
+            "salary": null,
+            "salaryType": null,
+            "salaryMax": null,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": null,
+            "departure": null,
+            "startTime": "2020-11-01T00:00:00.000+08:00",
+            "endTime": "2022-04-01T00:00:00.000+08:00",
+            "soFar": false,
+            "top500": null,
+            "isJoin": null,
+            "isOn": false
+          },
+          {
+            "id": "310469011131334658",
+            "company": "上海纳客宝信息有限公司",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": null,
+            "functionCode": null,
+            "department": null,
+            "rank": null,
+            "salary": null,
+            "salaryType": null,
+            "salaryMax": null,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": "华住酒店集团华住酒店集团华住酒店集团华住酒店集团",
+            "departure": null,
+            "startTime": "2019-09-01T00:00:00.000+08:00",
+            "endTime": "2020-10-01T00:00:00.000+08:00",
+            "soFar": false,
+            "top500": null,
+            "isJoin": null,
+            "isOn": false
+          }
+        ],
+        "projects": null,
+        "educations": [
+          {
+            "id": "310469011131334664",
+            "school": "北京理工大学",
+            "degree": 40,
+            "subject": "计算机科学与技术",
+            "unifiedEnrolment": null,
+            "startTime": "2017-01-01T00:00:00.000+08:00",
+            "endTime": "2020-01-01T00:00:00.000+08:00",
+            "soFar": false,
+            "is985": true,
+            "is211": true,
+            "two": true,
+            "isStudyAbroad": null,
+            "qs100": null
+          }
+        ],
+        "skills": null,
+        "languages": null,
+        "trainings": null,
+        "certificates": null,
+        "resumeFiles": null,
+        "createdBy": {
+          "coId": 1,
+          "orgId": 103,
+          "uid": 107,
+          "appId": 1,
+          "termId": 192410959
+        },
+        "folderIds": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "tags": {
+          "industries": [],
+          "posTags": [
+            {
+              "tagName": "测试工程师",
+              "tagWeight": 1.5188269114494324
+            },
+            {
+              "tagName": "软件测试",
+              "tagWeight": 1.5188269114494324
+            },
+            {
+              "tagName": "软件测试工程师",
+              "tagWeight": 0.661026120185852
+            },
+            {
+              "tagName": "功能测试",
+              "tagWeight": 0.6060913467407225
+            },
+            {
+              "tagName": "app测试工程师",
+              "tagWeight": 0.5783346033096313
+            },
+            {
+              "tagName": "手机测试",
+              "tagWeight": 0.5759783363342286
+            },
+            {
+              "tagName": "app软件测试工程师",
+              "tagWeight": 0.5724674320220947
+            },
+            {
+              "tagName": "测试开发工程师",
+              "tagWeight": 0.5622772908210755
+            },
+            {
+              "tagName": "功能测试工程师",
+              "tagWeight": 0.5562388014793396
+            },
+            {
+              "tagName": "手机软件测试工程师",
+              "tagWeight": 0.5554150629043579
+            }
+          ],
+          "posTypes": [
+            {
+              "tagName": "软件测试",
+              "tagWeight": 3.8688427126077936
+            },
+            {
+              "tagName": "系统测试",
+              "tagWeight": 0.911420653068982
+            },
+            {
+              "tagName": "软件工程师",
+              "tagWeight": 0.8423528547042732
+            },
+            {
+              "tagName": "测试工程师",
+              "tagWeight": 0.7617117810896441
+            },
+            {
+              "tagName": "测试员",
+              "tagWeight": 0.5165151944769006
+            }
+          ],
+          "skillsTags": [
+            {
+              "tagName": "jira",
+              "tagWeight": 0.6422678470611572
+            },
+            {
+              "tagName": "商务",
+              "tagWeight": 0.628066382408142
+            },
+            {
+              "tagName": "jmeter",
+              "tagWeight": 0.6098932266235352
+            },
+            {
+              "tagName": "自动化测试",
+              "tagWeight": 0.6001462936401367
+            },
+            {
+              "tagName": "禅道",
+              "tagWeight": 0.5987907409667969
+            },
+            {
+              "tagName": "接口测试",
+              "tagWeight": 0.598167371749878
+            },
+            {
+              "tagName": "fiddler",
+              "tagWeight": 0.5636950016021729
+            },
+            {
+              "tagName": "linux命令",
+              "tagWeight": 0.5483886718750001
+            },
+            {
+              "tagName": "功能测试",
+              "tagWeight": 0.5231624126434327
+            },
+            {
+              "tagName": "redis",
+              "tagWeight": 0.5013032913208008
+            },
+            {
+              "tagName": "linux系统",
+              "tagWeight": 0.4913677215576172
+            },
+            {
+              "tagName": "mysql",
+              "tagWeight": 0.4868952751159668
+            },
+            {
+              "tagName": "xmind",
+              "tagWeight": 0.4339586734771729
+            },
+            {
+              "tagName": "ui",
+              "tagWeight": 0.3531702995300293
+            },
+            {
+              "tagName": "酒店管理",
+              "tagWeight": 0.350331130027771
+            },
+            {
+              "tagName": "crm",
+              "tagWeight": 0.3101651525497437
+            },
+            {
+              "tagName": "产品经理",
+              "tagWeight": 0.3100674629211426
+            },
+            {
+              "tagName": "项目管理",
+              "tagWeight": 0.2803616285324097
+            },
+            {
+              "tagName": "酒店预订",
+              "tagWeight": 0.26348355889320374
+            },
+            {
+              "tagName": "数据分析",
+              "tagWeight": 0.22049238681793215
+            },
+            {
+              "tagName": "pms",
+              "tagWeight": 0.07577931046485901
+            },
+            {
+              "tagName": "sso",
+              "tagWeight": 0.07078662276268005
+            }
+          ]
+        },
+        "is985": null,
+        "is211": null,
+        "two": null,
+        "qs100": null,
+        "isUnifiedEnrolment": null,
+        "isStudyAbroad": null,
+        "reTag": null,
+        "highlights": null,
+        "risk": null,
+        "industry": null,
+        "function": null,
+        "industryCode": null,
+        "functionCode": null,
+        "expectFunction": null,
+        "expectFunctionCode": null,
+        "expectedIndustryCode": null,
+        "lastAddDate": null,
+        "isAuthorized": false,
+        "candidateUid": null,
+        "resumeLock": null,
+        "manualTagIds": null,
+        "manualTagNames": null,
+        "notes": null,
+        "mergedTo": null,
+        "isDeleted": null,
+        "explanation": null,
+        "numOfRemark": 0,
+        "handsOffInfo": {
+          "effect": false,
+          "workExperienceIds": null,
+          "companyNames": null,
+          "approvalProcessId": null,
+          "approvalStatus": null,
+          "processing": false
+        },
+        "resumeNoteMatch": null,
+        "locked": false
+      },
+      {
+        "id": "308190320934256640",
+        "channel": null,
+        "otherChannelName": null,
+        "createWay": null,
+        "photo": null,
+        "name": "李艳军",
+        "gender": "M",
+        "birth": "2024-01-06T10:58:36.799+08:00",
+        "age": 0,
+        "birthFromAge": null,
+        "degree": 20,
+        "currentLocation": "020",
+        "phoneRegionCode": null,
+        "phone": null,
+        "phoneCheck": null,
+        "virtualPhone": null,
+        "virtualPhoneTime": null,
+        "otherPhoneRegionCode": null,
+        "otherPhone": null,
+        "otherPhoneCheck": null,
+        "email": null,
+        "otherEmail": null,
+        "wechat": null,
+        "cardType": null,
+        "card": null,
+        "nativePlace": null,
+        "marital": null,
+        "race": null,
+        "nationality": null,
+        "politicalStatus": null,
+        "height": null,
+        "weight": null,
+        "currentStatus": null,
+        "currentType": null,
+        "currentSalary": null,
+        "currentSalaryType": null,
+        "currentSalaryMin": null,
+        "currentSalaryMax": null,
+        "expectedSalary": null,
+        "expectedSalaryMin": null,
+        "expectedSalaryMax": null,
+        "expectedSalaryType": null,
+        "selfRemark": null,
+        "otherInfo": null,
+        "expectedLocations": null,
+        "expectedWorkTitle": null,
+        "expectedIndustry": null,
+        "expectedPositionType": null,
+        "workExperience": 0,
+        "workStartTime": "2024-01-06T10:59:19.724+08:00",
+        "works": [
+          {
+            "id": "310373107497959424",
+            "company": "测试退票公司北京分公司",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": "222222222",
+            "functionCode": null,
+            "department": null,
+            "rank": null,
+            "salary": "1410000",
+            "salaryType": 6,
+            "salaryMax": 1410000,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": "222222222222222222222222222222",
+            "departure": null,
+            "startTime": "2024-05-06T11:11:50.793+08:00",
+            "endTime": null,
+            "soFar": true,
+            "top500": null,
+            "isJoin": true,
+            "isOn": true
+          },
+          {
+            "id": "310369969193877504",
+            "company": "11111111111",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": "1111111",
+            "functionCode": null,
+            "department": null,
+            "rank": null,
+            "salary": null,
+            "salaryType": null,
+            "salaryMax": null,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": "111111111111111111111",
+            "departure": null,
+            "startTime": "2024-01-06T10:59:19.724+08:00",
+            "endTime": "2024-11-06T10:59:20.926+08:00",
+            "soFar": null,
+            "top500": null,
+            "isJoin": null,
+            "isOn": true
+          }
+        ],
+        "projects": null,
+        "educations": [
+          {
+            "id": "310369913451577344",
+            "school": "15485",
+            "degree": 20,
+            "subject": "4584",
+            "unifiedEnrolment": "Y",
+            "startTime": "2024-01-06T10:59:06.175+08:00",
+            "endTime": "2024-11-06T10:59:07.657+08:00",
+            "soFar": null,
+            "is985": null,
+            "is211": null,
+            "two": null,
+            "isStudyAbroad": null,
+            "qs100": null
+          }
+        ],
+        "skills": null,
+        "languages": null,
+        "trainings": null,
+        "certificates": null,
+        "resumeFiles": null,
+        "createdBy": {
+          "coId": 1,
+          "orgId": 550,
+          "uid": 107,
+          "appId": 1,
+          "termId": 192410944
+        },
+        "folderIds": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "tags": {
+          "industries": [],
+          "posTags": [],
+          "posTypes": [],
+          "skillsTags": []
+        },
+        "is985": null,
+        "is211": null,
+        "two": null,
+        "qs100": null,
+        "isUnifiedEnrolment": null,
+        "isStudyAbroad": null,
+        "reTag": null,
+        "highlights": null,
+        "risk": null,
+        "industry": null,
+        "function": null,
+        "industryCode": null,
+        "functionCode": null,
+        "expectFunction": null,
+        "expectFunctionCode": null,
+        "expectedIndustryCode": null,
+        "lastAddDate": null,
+        "isAuthorized": false,
+        "candidateUid": null,
+        "resumeLock": {
+          "coId": 1,
+          "orgId": 550,
+          "uid": 107,
+          "appId": 1,
+          "termId": null,
+          "locked": false,
+          "updatedAt": "2024-05-06T11:11:43.833+08:00",
+          "expireAt": "2024-05-07T11:11:43.833+08:00"
+        },
+        "manualTagIds": null,
+        "manualTagNames": null,
+        "notes": null,
+        "mergedTo": null,
+        "isDeleted": null,
+        "explanation": null,
+        "numOfRemark": 0,
+        "handsOffInfo": {
+          "effect": false,
+          "workExperienceIds": null,
+          "companyNames": null,
+          "approvalProcessId": null,
+          "approvalStatus": null,
+          "processing": false
+        },
+        "resumeNoteMatch": null,
+        "locked": false
+      },
+      {
+        "id": "310371015232323584",
+        "channel": null,
+        "otherChannelName": null,
+        "createWay": null,
+        "photo": null,
+        "name": "李2",
+        "gender": "M",
+        "birth": "2024-01-06T11:07:17.142+08:00",
+        "age": 0,
+        "birthFromAge": null,
+        "degree": 40,
+        "currentLocation": "020",
+        "phoneRegionCode": null,
+        "phone": null,
+        "phoneCheck": null,
+        "virtualPhone": null,
+        "virtualPhoneTime": null,
+        "otherPhoneRegionCode": null,
+        "otherPhone": null,
+        "otherPhoneCheck": null,
+        "email": null,
+        "otherEmail": null,
+        "wechat": null,
+        "cardType": null,
+        "card": null,
+        "nativePlace": null,
+        "marital": null,
+        "race": null,
+        "nationality": null,
+        "politicalStatus": null,
+        "height": null,
+        "weight": null,
+        "currentStatus": null,
+        "currentType": null,
+        "currentSalary": null,
+        "currentSalaryType": null,
+        "currentSalaryMin": null,
+        "currentSalaryMax": null,
+        "expectedSalary": null,
+        "expectedSalaryMin": null,
+        "expectedSalaryMax": null,
+        "expectedSalaryType": null,
+        "selfRemark": null,
+        "otherInfo": null,
+        "expectedLocations": null,
+        "expectedWorkTitle": null,
+        "expectedIndustry": null,
+        "expectedPositionType": null,
+        "workExperience": 4,
+        "workStartTime": "2019-09-01T00:00:00.000+08:00",
+        "works": [
+          {
+            "id": "310371015232323585",
+            "company": "华住酒店集团",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": "1111111111",
+            "functionCode": null,
+            "department": "研发中心",
+            "rank": null,
+            "salary": null,
+            "salaryType": null,
+            "salaryMax": null,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": "111111111111111111111111111111111111111111",
+            "departure": null,
+            "startTime": "2020-11-01T00:00:00.000+08:00",
+            "endTime": "2022-04-01T00:00:00.000+08:00",
+            "soFar": null,
+            "top500": null,
+            "isJoin": null,
+            "isOn": false
+          }
+        ],
+        "projects": null,
+        "educations": [
+          {
+            "id": "310371015232323592",
+            "school": "北京理工大学",
+            "degree": 40,
+            "subject": "计算机科学与技术",
+            "unifiedEnrolment": "Y",
+            "startTime": "2017-01-01T00:00:00.000+08:00",
+            "endTime": "2020-01-01T00:00:00.000+08:00",
+            "soFar": null,
+            "is985": true,
+            "is211": true,
+            "two": true,
+            "isStudyAbroad": null,
+            "qs100": null
+          }
+        ],
+        "skills": null,
+        "languages": null,
+        "trainings": null,
+        "certificates": null,
+        "resumeFiles": null,
+        "createdBy": {
+          "coId": 1,
+          "orgId": 103,
+          "uid": 107,
+          "appId": 1,
+          "termId": 192410959
+        },
+        "folderIds": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "tags": {
+          "industries": [],
+          "posTags": [
+            {
+              "tagName": "测试工程师",
+              "tagWeight": 1.5188269114494324
+            },
+            {
+              "tagName": "软件测试",
+              "tagWeight": 1.5188269114494324
+            },
+            {
+              "tagName": "软件测试工程师",
+              "tagWeight": 0.661026120185852
+            },
+            {
+              "tagName": "功能测试",
+              "tagWeight": 0.6060913467407225
+            },
+            {
+              "tagName": "app测试工程师",
+              "tagWeight": 0.5783346033096313
+            },
+            {
+              "tagName": "手机测试",
+              "tagWeight": 0.5759783363342286
+            },
+            {
+              "tagName": "app软件测试工程师",
+              "tagWeight": 0.5724674320220947
+            },
+            {
+              "tagName": "测试开发工程师",
+              "tagWeight": 0.5622772908210755
+            },
+            {
+              "tagName": "功能测试工程师",
+              "tagWeight": 0.5562388014793396
+            },
+            {
+              "tagName": "手机软件测试工程师",
+              "tagWeight": 0.5554150629043579
+            }
+          ],
+          "posTypes": [
+            {
+              "tagName": "软件测试",
+              "tagWeight": 3.8688427126077936
+            },
+            {
+              "tagName": "系统测试",
+              "tagWeight": 0.911420653068982
+            },
+            {
+              "tagName": "软件工程师",
+              "tagWeight": 0.8423528547042732
+            },
+            {
+              "tagName": "测试工程师",
+              "tagWeight": 0.7617117810896441
+            },
+            {
+              "tagName": "测试员",
+              "tagWeight": 0.5165151944769006
+            }
+          ],
+          "skillsTags": [
+            {
+              "tagName": "jira",
+              "tagWeight": 0.6422678470611572
+            },
+            {
+              "tagName": "商务",
+              "tagWeight": 0.628066382408142
+            },
+            {
+              "tagName": "jmeter",
+              "tagWeight": 0.6098932266235352
+            },
+            {
+              "tagName": "自动化测试",
+              "tagWeight": 0.6001462936401367
+            },
+            {
+              "tagName": "禅道",
+              "tagWeight": 0.5987907409667969
+            },
+            {
+              "tagName": "接口测试",
+              "tagWeight": 0.598167371749878
+            },
+            {
+              "tagName": "fiddler",
+              "tagWeight": 0.5636950016021729
+            },
+            {
+              "tagName": "linux命令",
+              "tagWeight": 0.5483886718750001
+            },
+            {
+              "tagName": "功能测试",
+              "tagWeight": 0.5231624126434327
+            },
+            {
+              "tagName": "redis",
+              "tagWeight": 0.5013032913208008
+            },
+            {
+              "tagName": "linux系统",
+              "tagWeight": 0.4913677215576172
+            },
+            {
+              "tagName": "mysql",
+              "tagWeight": 0.4868952751159668
+            },
+            {
+              "tagName": "xmind",
+              "tagWeight": 0.4339586734771729
+            },
+            {
+              "tagName": "ui",
+              "tagWeight": 0.3531702995300293
+            },
+            {
+              "tagName": "酒店管理",
+              "tagWeight": 0.350331130027771
+            },
+            {
+              "tagName": "crm",
+              "tagWeight": 0.3101651525497437
+            },
+            {
+              "tagName": "产品经理",
+              "tagWeight": 0.3100674629211426
+            },
+            {
+              "tagName": "项目管理",
+              "tagWeight": 0.2803616285324097
+            },
+            {
+              "tagName": "酒店预订",
+              "tagWeight": 0.26348355889320374
+            },
+            {
+              "tagName": "数据分析",
+              "tagWeight": 0.22049238681793215
+            },
+            {
+              "tagName": "pms",
+              "tagWeight": 0.07577931046485901
+            },
+            {
+              "tagName": "sso",
+              "tagWeight": 0.07078662276268005
+            }
+          ]
+        },
+        "is985": null,
+        "is211": null,
+        "two": null,
+        "qs100": null,
+        "isUnifiedEnrolment": null,
+        "isStudyAbroad": null,
+        "reTag": null,
+        "highlights": null,
+        "risk": null,
+        "industry": null,
+        "function": null,
+        "industryCode": null,
+        "functionCode": null,
+        "expectFunction": null,
+        "expectFunctionCode": null,
+        "expectedIndustryCode": null,
+        "lastAddDate": null,
+        "isAuthorized": false,
+        "candidateUid": null,
+        "resumeLock": null,
+        "manualTagIds": null,
+        "manualTagNames": null,
+        "notes": null,
+        "mergedTo": null,
+        "isDeleted": null,
+        "explanation": null,
+        "numOfRemark": 0,
+        "handsOffInfo": {
+          "effect": false,
+          "workExperienceIds": null,
+          "companyNames": null,
+          "approvalProcessId": null,
+          "approvalStatus": null,
+          "processing": false
+        },
+        "resumeNoteMatch": null,
+        "locked": false
+      },
+      {
+        "id": "310370825859497984",
+        "channel": null,
+        "otherChannelName": null,
+        "createWay": null,
+        "photo": null,
+        "name": "李1",
+        "gender": "M",
+        "birth": "2024-01-06T11:04:48.342+08:00",
+        "age": 0,
+        "birthFromAge": null,
+        "degree": 40,
+        "currentLocation": "020",
+        "phoneRegionCode": null,
+        "phone": null,
+        "phoneCheck": null,
+        "virtualPhone": null,
+        "virtualPhoneTime": null,
+        "otherPhoneRegionCode": null,
+        "otherPhone": null,
+        "otherPhoneCheck": null,
+        "email": null,
+        "otherEmail": null,
+        "wechat": null,
+        "cardType": null,
+        "card": null,
+        "nativePlace": null,
+        "marital": null,
+        "race": null,
+        "nationality": null,
+        "politicalStatus": null,
+        "height": null,
+        "weight": null,
+        "currentStatus": null,
+        "currentType": null,
+        "currentSalary": null,
+        "currentSalaryType": null,
+        "currentSalaryMin": null,
+        "currentSalaryMax": null,
+        "expectedSalary": null,
+        "expectedSalaryMin": null,
+        "expectedSalaryMax": null,
+        "expectedSalaryType": null,
+        "selfRemark": null,
+        "otherInfo": null,
+        "expectedLocations": null,
+        "expectedWorkTitle": null,
+        "expectedIndustry": null,
+        "expectedPositionType": null,
+        "workExperience": 4,
+        "workStartTime": "2019-09-01T00:00:00.000+08:00",
+        "works": [
+          {
+            "id": "310370825859497985",
+            "company": "华住酒店集团",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": "111111111",
+            "functionCode": null,
+            "department": "研发中心",
+            "rank": null,
+            "salary": null,
+            "salaryType": null,
+            "salaryMax": null,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": "111111111111111111111111111111",
+            "departure": null,
+            "startTime": "2020-11-01T00:00:00.000+08:00",
+            "endTime": "2022-04-01T00:00:00.000+08:00",
+            "soFar": null,
+            "top500": null,
+            "isJoin": null,
+            "isOn": false
+          },
+          {
+            "id": "310370825859497986",
+            "company": "上海纳客宝信息有限公司",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": "1111111",
+            "functionCode": null,
+            "department": null,
+            "rank": null,
+            "salary": null,
+            "salaryType": null,
+            "salaryMax": null,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": "1111111111111111111111111111",
+            "departure": null,
+            "startTime": "2019-09-01T00:00:00.000+08:00",
+            "endTime": "2020-10-01T00:00:00.000+08:00",
+            "soFar": null,
+            "top500": null,
+            "isJoin": null,
+            "isOn": false
+          }
+        ],
+        "projects": null,
+        "educations": [
+          {
+            "id": "310370825859497992",
+            "school": "北京理工大学",
+            "degree": 40,
+            "subject": "计算机科学与技术",
+            "unifiedEnrolment": "Y",
+            "startTime": "2017-01-01T00:00:00.000+08:00",
+            "endTime": "2020-01-01T00:00:00.000+08:00",
+            "soFar": null,
+            "is985": true,
+            "is211": true,
+            "two": true,
+            "isStudyAbroad": null,
+            "qs100": null
+          }
+        ],
+        "skills": null,
+        "languages": null,
+        "trainings": null,
+        "certificates": null,
+        "resumeFiles": null,
+        "createdBy": {
+          "coId": 1,
+          "orgId": 103,
+          "uid": 107,
+          "appId": 1,
+          "termId": 192410959
+        },
+        "folderIds": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "tags": {
+          "industries": [],
+          "posTags": [
+            {
+              "tagName": "测试工程师",
+              "tagWeight": 1.5188269114494324
+            },
+            {
+              "tagName": "软件测试",
+              "tagWeight": 1.5188269114494324
+            },
+            {
+              "tagName": "软件测试工程师",
+              "tagWeight": 0.661026120185852
+            },
+            {
+              "tagName": "功能测试",
+              "tagWeight": 0.6060913467407225
+            },
+            {
+              "tagName": "app测试工程师",
+              "tagWeight": 0.5783346033096313
+            },
+            {
+              "tagName": "手机测试",
+              "tagWeight": 0.5759783363342286
+            },
+            {
+              "tagName": "app软件测试工程师",
+              "tagWeight": 0.5724674320220947
+            },
+            {
+              "tagName": "测试开发工程师",
+              "tagWeight": 0.5622772908210755
+            },
+            {
+              "tagName": "功能测试工程师",
+              "tagWeight": 0.5562388014793396
+            },
+            {
+              "tagName": "手机软件测试工程师",
+              "tagWeight": 0.5554150629043579
+            }
+          ],
+          "posTypes": [
+            {
+              "tagName": "软件测试",
+              "tagWeight": 3.8688427126077936
+            },
+            {
+              "tagName": "系统测试",
+              "tagWeight": 0.911420653068982
+            },
+            {
+              "tagName": "软件工程师",
+              "tagWeight": 0.8423528547042732
+            },
+            {
+              "tagName": "测试工程师",
+              "tagWeight": 0.7617117810896441
+            },
+            {
+              "tagName": "测试员",
+              "tagWeight": 0.5165151944769006
+            }
+          ],
+          "skillsTags": [
+            {
+              "tagName": "jira",
+              "tagWeight": 0.6422678470611572
+            },
+            {
+              "tagName": "商务",
+              "tagWeight": 0.628066382408142
+            },
+            {
+              "tagName": "jmeter",
+              "tagWeight": 0.6098932266235352
+            },
+            {
+              "tagName": "自动化测试",
+              "tagWeight": 0.6001462936401367
+            },
+            {
+              "tagName": "禅道",
+              "tagWeight": 0.5987907409667969
+            },
+            {
+              "tagName": "接口测试",
+              "tagWeight": 0.598167371749878
+            },
+            {
+              "tagName": "fiddler",
+              "tagWeight": 0.5636950016021729
+            },
+            {
+              "tagName": "linux命令",
+              "tagWeight": 0.5483886718750001
+            },
+            {
+              "tagName": "功能测试",
+              "tagWeight": 0.5231624126434327
+            },
+            {
+              "tagName": "redis",
+              "tagWeight": 0.5013032913208008
+            },
+            {
+              "tagName": "linux系统",
+              "tagWeight": 0.4913677215576172
+            },
+            {
+              "tagName": "mysql",
+              "tagWeight": 0.4868952751159668
+            },
+            {
+              "tagName": "xmind",
+              "tagWeight": 0.4339586734771729
+            },
+            {
+              "tagName": "ui",
+              "tagWeight": 0.3531702995300293
+            },
+            {
+              "tagName": "酒店管理",
+              "tagWeight": 0.350331130027771
+            },
+            {
+              "tagName": "crm",
+              "tagWeight": 0.3101651525497437
+            },
+            {
+              "tagName": "产品经理",
+              "tagWeight": 0.3100674629211426
+            },
+            {
+              "tagName": "项目管理",
+              "tagWeight": 0.2803616285324097
+            },
+            {
+              "tagName": "酒店预订",
+              "tagWeight": 0.26348355889320374
+            },
+            {
+              "tagName": "数据分析",
+              "tagWeight": 0.22049238681793215
+            },
+            {
+              "tagName": "pms",
+              "tagWeight": 0.07577931046485901
+            },
+            {
+              "tagName": "sso",
+              "tagWeight": 0.07078662276268005
+            }
+          ]
+        },
+        "is985": null,
+        "is211": null,
+        "two": null,
+        "qs100": null,
+        "isUnifiedEnrolment": null,
+        "isStudyAbroad": null,
+        "reTag": null,
+        "highlights": null,
+        "risk": null,
+        "industry": null,
+        "function": null,
+        "industryCode": null,
+        "functionCode": null,
+        "expectFunction": null,
+        "expectFunctionCode": null,
+        "expectedIndustryCode": null,
+        "lastAddDate": null,
+        "isAuthorized": false,
+        "candidateUid": null,
+        "resumeLock": {
+          "coId": 1,
+          "orgId": 550,
+          "uid": 107,
+          "appId": 1,
+          "termId": null,
+          "locked": false,
+          "updatedAt": "2024-05-06T11:06:39.845+08:00",
+          "expireAt": "2024-05-07T11:06:39.845+08:00"
+        },
+        "manualTagIds": null,
+        "manualTagNames": null,
+        "notes": null,
+        "mergedTo": null,
+        "isDeleted": null,
+        "explanation": null,
+        "numOfRemark": 0,
+        "handsOffInfo": {
+          "effect": false,
+          "workExperienceIds": null,
+          "companyNames": null,
+          "approvalProcessId": null,
+          "approvalStatus": null,
+          "processing": false
+        },
+        "resumeNoteMatch": null,
+        "locked": false
+      },
+      {
+        "id": "308189374535696384",
+        "channel": null,
+        "otherChannelName": null,
+        "createWay": null,
+        "photo": null,
+        "name": "刘小欢",
+        "gender": "M",
+        "birth": "2024-01-06T11:00:32.754+08:00",
+        "age": 0,
+        "birthFromAge": null,
+        "degree": 40,
+        "currentLocation": "020",
+        "phoneRegionCode": null,
+        "phone": null,
+        "phoneCheck": null,
+        "virtualPhone": null,
+        "virtualPhoneTime": null,
+        "otherPhoneRegionCode": null,
+        "otherPhone": null,
+        "otherPhoneCheck": null,
+        "email": null,
+        "otherEmail": null,
+        "wechat": null,
+        "cardType": null,
+        "card": null,
+        "nativePlace": null,
+        "marital": null,
+        "race": null,
+        "nationality": null,
+        "politicalStatus": null,
+        "height": null,
+        "weight": null,
+        "currentStatus": null,
+        "currentType": null,
+        "currentSalary": null,
+        "currentSalaryType": null,
+        "currentSalaryMin": null,
+        "currentSalaryMax": null,
+        "expectedSalary": null,
+        "expectedSalaryMin": null,
+        "expectedSalaryMax": null,
+        "expectedSalaryType": null,
+        "selfRemark": null,
+        "otherInfo": null,
+        "expectedLocations": null,
+        "expectedWorkTitle": null,
+        "expectedIndustry": null,
+        "expectedPositionType": null,
+        "workExperience": 4,
+        "workStartTime": "2019-09-01T00:00:00.000+08:00",
+        "works": [
+          {
+            "id": "308189374535696385",
+            "company": "华住酒店集团",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": "4111111111",
+            "functionCode": null,
+            "department": "研发中心",
+            "rank": null,
+            "salary": null,
+            "salaryType": null,
+            "salaryMax": null,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": "11111111111111111111111111111111111111111111",
+            "departure": null,
+            "startTime": "2020-11-01T00:00:00.000+08:00",
+            "endTime": "2022-04-01T00:00:00.000+08:00",
+            "soFar": null,
+            "top500": null,
+            "isJoin": null,
+            "isOn": false
+          },
+          {
+            "id": "308189374535696386",
+            "company": "上海纳客宝信息有限公司",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": "1111111",
+            "functionCode": null,
+            "department": null,
+            "rank": null,
+            "salary": null,
+            "salaryType": null,
+            "salaryMax": null,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": "1111111111111111111111111111111111111111",
+            "departure": null,
+            "startTime": "2019-09-01T00:00:00.000+08:00",
+            "endTime": "2020-10-01T00:00:00.000+08:00",
+            "soFar": null,
+            "top500": null,
+            "isJoin": null,
+            "isOn": false
+          }
+        ],
+        "projects": null,
+        "educations": [
+          {
+            "id": "308189374535696392",
+            "school": "北京理工大学",
+            "degree": 40,
+            "subject": "计算机科学与技术",
+            "unifiedEnrolment": "Y",
+            "startTime": "2017-01-01T00:00:00.000+08:00",
+            "endTime": "2020-01-01T00:00:00.000+08:00",
+            "soFar": null,
+            "is985": true,
+            "is211": true,
+            "two": true,
+            "isStudyAbroad": null,
+            "qs100": null
+          }
+        ],
+        "skills": null,
+        "languages": null,
+        "trainings": null,
+        "certificates": null,
+        "resumeFiles": null,
+        "createdBy": {
+          "coId": 1,
+          "orgId": 550,
+          "uid": 107,
+          "appId": 1,
+          "termId": 192410944
+        },
+        "folderIds": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "tags": {
+          "industries": [],
+          "posTags": [
+            {
+              "tagName": "测试工程师",
+              "tagWeight": 1.5188269114494324
+            },
+            {
+              "tagName": "软件测试",
+              "tagWeight": 1.5188269114494324
+            },
+            {
+              "tagName": "软件测试工程师",
+              "tagWeight": 0.661026120185852
+            },
+            {
+              "tagName": "功能测试",
+              "tagWeight": 0.6060913467407225
+            },
+            {
+              "tagName": "app测试工程师",
+              "tagWeight": 0.5783346033096313
+            },
+            {
+              "tagName": "手机测试",
+              "tagWeight": 0.5759783363342286
+            },
+            {
+              "tagName": "app软件测试工程师",
+              "tagWeight": 0.5724674320220947
+            },
+            {
+              "tagName": "测试开发工程师",
+              "tagWeight": 0.5622772908210755
+            },
+            {
+              "tagName": "功能测试工程师",
+              "tagWeight": 0.5562388014793396
+            },
+            {
+              "tagName": "手机软件测试工程师",
+              "tagWeight": 0.5554150629043579
+            }
+          ],
+          "posTypes": [
+            {
+              "tagName": "软件测试",
+              "tagWeight": 3.8688427126077936
+            },
+            {
+              "tagName": "系统测试",
+              "tagWeight": 0.911420653068982
+            },
+            {
+              "tagName": "软件工程师",
+              "tagWeight": 0.8423528547042732
+            },
+            {
+              "tagName": "测试工程师",
+              "tagWeight": 0.7617117810896441
+            },
+            {
+              "tagName": "测试员",
+              "tagWeight": 0.5165151944769006
+            }
+          ],
+          "skillsTags": [
+            {
+              "tagName": "jira",
+              "tagWeight": 0.6422678470611572
+            },
+            {
+              "tagName": "商务",
+              "tagWeight": 0.628066382408142
+            },
+            {
+              "tagName": "jmeter",
+              "tagWeight": 0.6098932266235352
+            },
+            {
+              "tagName": "自动化测试",
+              "tagWeight": 0.6001462936401367
+            },
+            {
+              "tagName": "禅道",
+              "tagWeight": 0.5987907409667969
+            },
+            {
+              "tagName": "接口测试",
+              "tagWeight": 0.598167371749878
+            },
+            {
+              "tagName": "fiddler",
+              "tagWeight": 0.5636950016021729
+            },
+            {
+              "tagName": "linux命令",
+              "tagWeight": 0.5483886718750001
+            },
+            {
+              "tagName": "功能测试",
+              "tagWeight": 0.5231624126434327
+            },
+            {
+              "tagName": "redis",
+              "tagWeight": 0.5013032913208008
+            },
+            {
+              "tagName": "linux系统",
+              "tagWeight": 0.4913677215576172
+            },
+            {
+              "tagName": "mysql",
+              "tagWeight": 0.4868952751159668
+            },
+            {
+              "tagName": "xmind",
+              "tagWeight": 0.4339586734771729
+            },
+            {
+              "tagName": "ui",
+              "tagWeight": 0.3531702995300293
+            },
+            {
+              "tagName": "酒店管理",
+              "tagWeight": 0.350331130027771
+            },
+            {
+              "tagName": "crm",
+              "tagWeight": 0.3101651525497437
+            },
+            {
+              "tagName": "产品经理",
+              "tagWeight": 0.3100674629211426
+            },
+            {
+              "tagName": "项目管理",
+              "tagWeight": 0.2803616285324097
+            },
+            {
+              "tagName": "酒店预订",
+              "tagWeight": 0.26348355889320374
+            },
+            {
+              "tagName": "数据分析",
+              "tagWeight": 0.22049238681793215
+            },
+            {
+              "tagName": "pms",
+              "tagWeight": 0.07577931046485901
+            },
+            {
+              "tagName": "sso",
+              "tagWeight": 0.07078662276268005
+            }
+          ]
+        },
+        "is985": null,
+        "is211": null,
+        "two": null,
+        "qs100": null,
+        "isUnifiedEnrolment": null,
+        "isStudyAbroad": null,
+        "reTag": null,
+        "highlights": null,
+        "risk": null,
+        "industry": null,
+        "function": null,
+        "industryCode": null,
+        "functionCode": null,
+        "expectFunction": null,
+        "expectFunctionCode": null,
+        "expectedIndustryCode": null,
+        "lastAddDate": null,
+        "isAuthorized": false,
+        "candidateUid": null,
+        "resumeLock": null,
+        "manualTagIds": null,
+        "manualTagNames": null,
+        "notes": null,
+        "mergedTo": null,
+        "isDeleted": null,
+        "explanation": null,
+        "numOfRemark": 0,
+        "handsOffInfo": {
+          "effect": false,
+          "workExperienceIds": null,
+          "companyNames": null,
+          "approvalProcessId": null,
+          "approvalStatus": null,
+          "processing": false
+        },
+        "resumeNoteMatch": null,
+        "locked": false
+      },
+      {
+        "id": "272733683218120704",
+        "channel": null,
+        "otherChannelName": null,
+        "createWay": null,
+        "photo": null,
+        "name": "庄毅钱1",
+        "gender": "M",
+        "birth": "1965-01-01T00:00:00.000+08:00",
+        "age": 59,
+        "birthFromAge": null,
+        "degree": 60,
+        "currentLocation": "020",
+        "phoneRegionCode": null,
+        "phone": null,
+        "phoneCheck": null,
+        "virtualPhone": null,
+        "virtualPhoneTime": null,
+        "otherPhoneRegionCode": null,
+        "otherPhone": null,
+        "otherPhoneCheck": null,
+        "email": null,
+        "otherEmail": null,
+        "wechat": null,
+        "cardType": null,
+        "card": null,
+        "nativePlace": null,
+        "marital": null,
+        "race": null,
+        "nationality": null,
+        "politicalStatus": null,
+        "height": null,
+        "weight": null,
+        "currentStatus": null,
+        "currentType": null,
+        "currentSalary": null,
+        "currentSalaryType": null,
+        "currentSalaryMin": null,
+        "currentSalaryMax": null,
+        "expectedSalary": null,
+        "expectedSalaryMin": null,
+        "expectedSalaryMax": null,
+        "expectedSalaryType": null,
+        "selfRemark": null,
+        "otherInfo": null,
+        "expectedLocations": null,
+        "expectedWorkTitle": null,
+        "expectedIndustry": null,
+        "expectedPositionType": null,
+        "workExperience": 39,
+        "workStartTime": "1984-06-01T00:00:00.000+08:00",
+        "works": [
+          {
+            "id": "307966409315450880",
+            "company": "测试退票公司上海分公司",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": "测试预计成单时间",
+            "functionCode": null,
+            "department": null,
+            "rank": null,
+            "salary": "96000",
+            "salaryType": 6,
+            "salaryMax": 96000,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": "测试职位描述考虑考虑喇叭CALL机",
+            "departure": null,
+            "startTime": "2024-04-30T00:00:00.000+08:00",
+            "endTime": null,
+            "soFar": true,
+            "top500": null,
+            "isJoin": true,
+            "isOn": true
+          },
+          {
+            "id": "300290353833967616",
+            "company": "测试退票公司",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": "测试简要流程职位",
+            "functionCode": null,
+            "department": null,
+            "rank": null,
+            "salary": "110000",
+            "salaryType": 6,
+            "salaryMax": 110000,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": "http://erc.test.fatalent.cn/flow/detail/202404081000111818http://erc.test.fatalent.cn/flow/detail/202404081000111818http://erc.test.fatalent.cn/flow/detail/202404081000111818",
+            "departure": "候选人拒绝",
+            "startTime": "2024-04-09T15:26:34.114+08:00",
+            "endTime": "2024-04-08T16:28:45.545+08:00",
+            "soFar": false,
+            "top500": null,
+            "isJoin": true,
+            "isOn": false
+          },
+          {
+            "id": "272733683218120705",
+            "company": "律师事务所",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": "法务总监",
+            "functionCode": "008044309",
+            "department": null,
+            "rank": null,
+            "salary": null,
+            "salaryType": null,
+            "salaryMax": null,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": "2005.12—现在 上海***律师事务所 合伙人律师、资深法律专家\n概括为四大关键词: 经验丰富 、 办案众多 、 一万小时 、 被告优势\nA.承办各种诉讼、仲裁或非诉讼案件等数量已超三千余件(金融纠纷、房地产纠纷、合同纠纷、公司并购、不良资产处置等各种类型),成功案例已被最高人民法院收入全国十大最有影响力典型案例。\nB.担任公司法律顾问,审查合同(尤其是法税同审上有独到心得,为顾问单位节省大笔税费)审核起草重大制度出具法律意见书等\n法律文件;荣获国务院推荐担任国内外上市公司独立董事或董事会秘书资格,参加协商、重大谈判。2011-2012年间曾游学美国哥伦\n比亚大学法学院。\nC.处理各类合同经济、民事、商事金融等法律事务,尤其擅长处理合同纠纷,在风险防控、合规管理和清收,包括公司治理等经常\n总结笔耕不缀,尤在著书立说有独到心得。\nD. 全国首创被告优势型律师,代理被告数百起案件几乎都能反败为胜,力挽狂澜于即倒。有“三分钟定胜负”、“最靠谱律师”的称号\n(有庞大数量真实案例可佐证)",
+            "departure": null,
+            "startTime": "2005-12-01T00:00:00.000+08:00",
+            "endTime": "2024-04-08T15:26:34.114+08:00",
+            "soFar": false,
+            "top500": null,
+            "isJoin": null,
+            "isOn": false
+          },
+          {
+            "id": "272733683218120706",
+            "company": "某某房地产开发有限公司",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": "法务总监",
+            "functionCode": "008044309",
+            "department": null,
+            "rank": null,
+            "salary": null,
+            "salaryType": null,
+            "salaryMax": null,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": "国家法律职业资格和国家注册企业法律顾问资格持有人.处理公司有关法律事务\n2001.--2005.12 某房地产股份有限公司 法务总监(兼董秘)\n工作职责:\nA. 主要办理房地产(建筑工程)的对外合同审核等,担任房地产、建筑工程、物业、中介等公司常年法律顾问,起草、审查重大合\n同、章程,参与对外重大谈判等事务,制定合同管理制度。\nB. 审查、起草合同、法律意见书等其他法律文件,参与重大谈判、融资并购等资产运作。解决疑难复杂法律事务。\nC. 处理民事合同、经济合同纠纷等法律纠纷处理,代理民事、经济诉讼案件,出庭起诉、应诉;\nD. 协助公司作出重大决策,出具正确的法律意见,拟订修改公司合同管理等重大规章制度,负责公司内外法律事务。",
+            "departure": null,
+            "startTime": "2001-01-01T00:00:00.000+08:00",
+            "endTime": "2005-12-01T00:00:00.000+08:00",
+            "soFar": false,
+            "top500": null,
+            "isJoin": null,
+            "isOn": false
+          },
+          {
+            "id": "272733683218120707",
+            "company": "上市汽车制造有限公司",
+            "industry": null,
+            "industryCode": null,
+            "type": 2,
+            "scale": null,
+            "position": "法务总监",
+            "functionCode": "008044309",
+            "department": null,
+            "rank": null,
+            "salary": null,
+            "salaryType": null,
+            "salaryMax": null,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": "持有董事会秘书、国家注册企业法律顾问、海关总署报关员等资格。\n负责处理公司董事会相关例行事务、料件进口、减免税收、海空运输、各类保险运输报关、合同纠纷处理、涉外诉讼仲裁等法律事\n务。\n首次通过运用掌握的海关税收核定审查知识及法律手段,查堵进口税务漏洞,为企业成功挽回307万美元的税收损失。",
+            "departure": null,
+            "startTime": "1999-01-01T00:00:00.000+08:00",
+            "endTime": "2001-01-01T00:00:00.000+08:00",
+            "soFar": false,
+            "top500": null,
+            "isJoin": null,
+            "isOn": false
+          },
+          {
+            "id": "272733683218120708",
+            "company": "上海进出口商品检验局",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": "法务总监",
+            "functionCode": "008044309",
+            "department": "法规处",
+            "rank": null,
+            "salary": null,
+            "salaryType": null,
+            "salaryMax": null,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": "国家法律职业资格、注册企业法律顾问资格持有人,ISO9000国际质量管理体系审核员,处理与执法机关有关的行政执法、行政复\n议、行政诉讼等有关法律事务。\n主要业绩:国家法律职业资格和国家注册企业法律顾问资格持有人.处理有关法律事务.",
+            "departure": null,
+            "startTime": "1984-06-01T00:00:00.000+08:00",
+            "endTime": "1999-01-01T00:00:00.000+08:00",
+            "soFar": false,
+            "top500": null,
+            "isJoin": null,
+            "isOn": false
+          }
+        ],
+        "projects": null,
+        "educations": [
+          {
+            "id": "272733683218120709",
+            "school": "中国人民大学",
+            "degree": 60,
+            "subject": "法学",
+            "unifiedEnrolment": "Y",
+            "startTime": "2004-07-01T00:00:00.000+08:00",
+            "endTime": "2005-07-01T00:00:00.000+08:00",
+            "soFar": null,
+            "is985": true,
+            "is211": true,
+            "two": true,
+            "isStudyAbroad": null,
+            "qs100": null
+          },
+          {
+            "id": "272733683218120710",
+            "school": "中国人民大学",
+            "degree": 60,
+            "subject": "行政",
+            "unifiedEnrolment": "Y",
+            "startTime": "2004-01-01T00:00:00.000+08:00",
+            "endTime": "2005-01-01T00:00:00.000+08:00",
+            "soFar": null,
+            "is985": true,
+            "is211": true,
+            "two": true,
+            "isStudyAbroad": null,
+            "qs100": null
+          },
+          {
+            "id": "272733683218120711",
+            "school": "中山大学",
+            "degree": 50,
+            "subject": "化学",
+            "unifiedEnrolment": "Y",
+            "startTime": "1980-07-01T00:00:00.000+08:00",
+            "endTime": "1984-06-01T00:00:00.000+08:00",
+            "soFar": null,
+            "is985": true,
+            "is211": true,
+            "two": true,
+            "isStudyAbroad": null,
+            "qs100": null
+          }
+        ],
+        "skills": null,
+        "languages": null,
+        "trainings": null,
+        "certificates": null,
+        "resumeFiles": null,
+        "createdBy": {
+          "coId": 1,
+          "orgId": 432,
+          "uid": 86,
+          "appId": 1,
+          "termId": 192410959
+        },
+        "folderIds": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "tags": {
+          "industries": [],
+          "posTags": [
+            {
+              "tagName": "法务总监",
+              "tagWeight": 2.413418292045593
+            },
+            {
+              "tagName": "法务经理",
+              "tagWeight": 0.6064420668482781
+            },
+            {
+              "tagName": "法务主管",
+              "tagWeight": 0.5763305840492248
+            },
+            {
+              "tagName": "法务风控经理",
+              "tagWeight": 0.5071068001985549
+            },
+            {
+              "tagName": "法务副总监",
+              "tagWeight": 0.5000852535367012
+            },
+            {
+              "tagName": "法务总经理",
+              "tagWeight": 0.4957572210431099
+            },
+            {
+              "tagName": "法务专员",
+              "tagWeight": 0.4949347690343857
+            },
+            {
+              "tagName": "金融法务经理",
+              "tagWeight": 0.4839505421519279
+            },
+            {
+              "tagName": "法务部经理",
+              "tagWeight": 0.48051679962873456
+            },
+            {
+              "tagName": "集团法务经理",
+              "tagWeight": 0.47971921294927594
+            }
+          ],
+          "posTypes": [
+            {
+              "tagName": "法务经理",
+              "tagWeight": 2.8644295607573316
+            },
+            {
+              "tagName": "律师/法律顾问",
+              "tagWeight": 1.0479606169046651
+            },
+            {
+              "tagName": "法务主管/专员",
+              "tagWeight": 0.9981765051462176
+            },
+            {
+              "tagName": "首席执行官ceo/总裁/总经理",
+              "tagWeight": 0.4957572210431099
+            },
+            {
+              "tagName": "合规经理",
+              "tagWeight": 0.30391334241281565
+            }
+          ],
+          "skillsTags": [
+            {
+              "tagName": "法律事务",
+              "tagWeight": 0.9341380119323731
+            },
+            {
+              "tagName": "仲裁",
+              "tagWeight": 0.7093486785888673
+            },
+            {
+              "tagName": "并购",
+              "tagWeight": 0.6695545673370362
+            },
+            {
+              "tagName": "非诉",
+              "tagWeight": 0.6032028198242188
+            },
+            {
+              "tagName": "法务",
+              "tagWeight": 0.6
+            },
+            {
+              "tagName": "公司法",
+              "tagWeight": 0.5995889186859131
+            },
+            {
+              "tagName": "律师",
+              "tagWeight": 0.5443630218505859
+            },
+            {
+              "tagName": "董事会秘书",
+              "tagWeight": 0.5066399455070496
+            },
+            {
+              "tagName": "公司治理",
+              "tagWeight": 0.4597669124603272
+            },
+            {
+              "tagName": "合规管理",
+              "tagWeight": 0.41597743034362794
+            },
+            {
+              "tagName": "不良资产处置",
+              "tagWeight": 0.4127377510070801
+            },
+            {
+              "tagName": "企业法律顾问",
+              "tagWeight": 0.40864131450653074
+            },
+            {
+              "tagName": "法务总监",
+              "tagWeight": 0.3418292045593262
+            },
+            {
+              "tagName": "法律顾问",
+              "tagWeight": 0.29266278743743895
+            },
+            {
+              "tagName": "法律职业资格",
+              "tagWeight": 0.2701290607452393
+            },
+            {
+              "tagName": "合同审核",
+              "tagWeight": 0.2520198106765747
+            },
+            {
+              "tagName": "董秘",
+              "tagWeight": 0.20711915493011476
+            },
+            {
+              "tagName": "董事",
+              "tagWeight": 0.08852886557579041
+            },
+            {
+              "tagName": "报关员",
+              "tagWeight": 0.08218227028846742
+            },
+            {
+              "tagName": "涉外",
+              "tagWeight": 0.0803646206855774
+            },
+            {
+              "tagName": "报关",
+              "tagWeight": 0.07475486993789673
+            }
+          ]
+        },
+        "is985": null,
+        "is211": null,
+        "two": null,
+        "qs100": null,
+        "isUnifiedEnrolment": null,
+        "isStudyAbroad": null,
+        "reTag": null,
+        "highlights": null,
+        "risk": null,
+        "industry": null,
+        "function": null,
+        "industryCode": null,
+        "functionCode": null,
+        "expectFunction": null,
+        "expectFunctionCode": null,
+        "expectedIndustryCode": null,
+        "lastAddDate": null,
+        "isAuthorized": false,
+        "candidateUid": null,
+        "resumeLock": {
+          "coId": 1,
+          "orgId": 550,
+          "uid": 107,
+          "appId": 1,
+          "termId": null,
+          "locked": false,
+          "updatedAt": "2024-04-29T19:46:42.294+08:00",
+          "expireAt": "2024-05-02T23:59:59.294+08:00"
+        },
+        "manualTagIds": null,
+        "manualTagNames": null,
+        "notes": null,
+        "mergedTo": null,
+        "isDeleted": null,
+        "explanation": null,
+        "numOfRemark": 0,
+        "handsOffInfo": {
+          "effect": true,
+          "workExperienceIds": ["307966409315450880"],
+          "companyNames": ["测试退票公司上海分公司"],
+          "approvalProcessId": null,
+          "approvalStatus": null,
+          "processing": false
+        },
+        "resumeNoteMatch": null,
+        "locked": false
+      },
+      {
+        "id": "272793247481331712",
+        "channel": null,
+        "otherChannelName": null,
+        "createWay": null,
+        "photo": "ymzYNY0BeK_D6zxNLZq2",
+        "name": "陆阳",
+        "gender": "F",
+        "birth": "1991-01-23T18:22:56.420+08:00",
+        "age": 33,
+        "birthFromAge": true,
+        "degree": 60,
+        "currentLocation": "020",
+        "phoneRegionCode": null,
+        "phone": null,
+        "phoneCheck": null,
+        "virtualPhone": null,
+        "virtualPhoneTime": null,
+        "otherPhoneRegionCode": null,
+        "otherPhone": null,
+        "otherPhoneCheck": null,
+        "email": null,
+        "otherEmail": null,
+        "wechat": null,
+        "cardType": null,
+        "card": null,
+        "nativePlace": null,
+        "marital": null,
+        "race": null,
+        "nationality": null,
+        "politicalStatus": null,
+        "height": null,
+        "weight": null,
+        "currentStatus": null,
+        "currentType": null,
+        "currentSalary": null,
+        "currentSalaryType": null,
+        "currentSalaryMin": null,
+        "currentSalaryMax": null,
+        "expectedSalary": null,
+        "expectedSalaryMin": null,
+        "expectedSalaryMax": null,
+        "expectedSalaryType": null,
+        "selfRemark": null,
+        "otherInfo": null,
+        "expectedLocations": null,
+        "expectedWorkTitle": null,
+        "expectedIndustry": null,
+        "expectedPositionType": null,
+        "workExperience": 9,
+        "workStartTime": "2014-09-01T00:00:00.000+08:00",
+        "works": [
+          {
+            "id": "307966404970151936",
+            "company": "测试退票公司上海分公司",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": "测试预计成单时间",
+            "functionCode": null,
+            "department": null,
+            "rank": null,
+            "salary": "96000",
+            "salaryType": 6,
+            "salaryMax": 96000,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": "测试职位描述考虑考虑喇叭CALL机",
+            "departure": null,
+            "startTime": "2024-04-30T00:00:00.000+08:00",
+            "endTime": null,
+            "soFar": true,
+            "top500": null,
+            "isJoin": true,
+            "isOn": true
+          },
+          {
+            "id": "300584382496768000",
+            "company": "测试退票公司1111111",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": "测试默认流程职位01",
+            "functionCode": "019112922",
+            "department": null,
+            "rank": null,
+            "salary": "110000",
+            "salaryType": 6,
+            "salaryMax": 110000,
+            "salaryMin": 110000,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": "http://erc.test.fatalent.cn/flow/detail/202404081000111818http://erc.test.fatalent.cn/flow/detail/202404081000111818http://erc.test.fatalent.cn/flow/detail/202404081000111818",
+            "departure": null,
+            "startTime": "2024-04-01T00:00:00.000+08:00",
+            "endTime": "2024-04-29T00:00:00.000+08:00",
+            "soFar": false,
+            "top500": null,
+            "isJoin": null,
+            "isOn": false
+          },
+          {
+            "id": "272793247481331713",
+            "company": "锐敏律师事务所",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": "律师助理",
+            "functionCode": "008044314",
+            "department": null,
+            "rank": null,
+            "salary": null,
+            "salaryType": 7,
+            "salaryMax": null,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": "参与跨境并购项目中的经营者集中中国反垄断申报以及配合进行其他司法辖区的反垄断申\n报。参与项目主要涉及行业包括:电力、石油化工、半导体、制造业、房地产、汽车业、运\n输业等。\n? 对中国和其他国家(主要包括欧盟、美国和亚洲国家)的反垄断、外商投资审查、国家安全\n审查和贸易反补贴法规及其执法动态(包括诉讼和行政处罚)进行研究,并参与为客户的境\n外投资项目提供合规建议及项目风险评估。\n? 参与市场监管总局不定期向各律师事务所征求对于反垄断相关法规或指引草案的意见或建议\n的起草。\n? 参与投融资/并购相关法律事务,包括对跨境交易中的目标公司进行尽职调查,公司ESOP设\n立等。\n参与项目:\n反垄断:\n- 参与阿联酋一家投资公司收购阿联酋一家国际知名石油公司股权项目的经营者集中申报;\n- 参与欧洲两家公司收购欧洲沿海地区某一海上风电资产的经营者集中申报;\n- 参与欧洲两家粮食贸易公司并购项目的经营者集中申报;\n- 参与欧洲两家化学公司在境外设立合营企业的经营者集中申报;\n- 参与一家日本运输公司收购一家澳大利亚物流公司股权项目的经营者集中申报;\n- 参与一家国内半导体公司和半导体合资企业设立合营企业的经营者集中申报;\n- 参与为客户提供欧洲反补贴制度方面的合规建议;\n- 参与为国内一家大型互联网公司提供中国电商直播业和网络零售平台竞争状况及合规风险评\n估项目。\n公司投融资/并购:\n- 参与一家日本贸易公司收购一家西班牙在华调味品制造子公司股权项目,主要负责尽职调查\n部分;\n- 参与一家公司的ESOP设立项目,主要负责员工期权协议和跟投权协议;\n- 参与一家新能源材料制造公司的并购项目,并提供前期相关行业分析和公司信息检索。\n- 参与一家制造业公司的海外股权转让项目,提供项目在美国国家安全审查方面的风险评估。",
+            "departure": null,
+            "startTime": "2022-09-01T00:00:00.000+08:00",
+            "endTime": "2024-04-08T10:54:46.769+08:00",
+            "soFar": false,
+            "top500": null,
+            "isJoin": null,
+            "isOn": false
+          },
+          {
+            "id": "272793247481331714",
+            "company": "Law Offices of Jeffrey T",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": "律师",
+            "functionCode": "008044315",
+            "department": null,
+            "rank": null,
+            "salary": null,
+            "salaryType": 7,
+            "salaryMax": null,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": "处理仲裁和诉讼案件的所有阶段,包括调解与和解。\n? 协助辩护一起关于涉及VIE公司结构的股东纠纷国际仲裁案件,案件主张金额超过8500\n万美金。\n? 协助代理一起投资移民欺诈案件的集体诉讼,案件涉及几百位客户。\n? 代理中国客户争取美国法院对中国法院判决的确认,并且帮助客户在美国追偿债务。\n? 帮助客户在美国加州和特拉华州设立公司和有限责任公司。\n? 帮助客户在加州创立家族信托。\n? 为投资移民欺诈案件、跨境投资纠纷案件、股东纠纷案件、医疗事故案件、人体伤害案\n件、家事案件和版权案件起草诉状、动议、信函和其他法律文件。\n? 审阅大量文件,并针对对方的诉状或者答辩状中的关键争议和问题,为上级律师出具分析\n意见书。\n? 处理案件的证据披露环节,包括向对方律师提出询问请求、调查案件,收集信息以及回答\n对方律师的问题。\n? 为证人做口供。\n? 代表客户进行谈判,在和解阶段争取最好的和解金额。",
+            "departure": null,
+            "startTime": "2018-09-01T00:00:00.000+08:00",
+            "endTime": "2022-07-01T00:00:00.000+08:00",
+            "soFar": null,
+            "top500": null,
+            "isJoin": null,
+            "isOn": false
+          },
+          {
+            "id": "272793247481331715",
+            "company": "北京大成(上海)律师事务所",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": "律师助理",
+            "functionCode": "008044314",
+            "department": null,
+            "rank": null,
+            "salary": null,
+            "salaryType": 7,
+            "salaryMax": null,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": "主要处理知识产权(商标和著作权纠纷)相关诉讼事务。",
+            "departure": null,
+            "startTime": "2016-12-01T00:00:00.000+08:00",
+            "endTime": "2017-04-01T00:00:00.000+08:00",
+            "soFar": null,
+            "top500": null,
+            "isJoin": null,
+            "isOn": false
+          },
+          {
+            "id": "272793247481331716",
+            "company": "德国泰乐信律师事务所",
+            "industry": null,
+            "industryCode": null,
+            "type": null,
+            "scale": null,
+            "position": "律师助理",
+            "functionCode": "008044314",
+            "department": null,
+            "rank": null,
+            "salary": null,
+            "salaryType": 7,
+            "salaryMax": null,
+            "salaryMin": null,
+            "reportTo": null,
+            "subordinatesCount": null,
+            "description": "知识产权、公司跨境并购、FDI事务;代表实习生团队进行英文演讲",
+            "departure": null,
+            "startTime": "2014-09-01T00:00:00.000+08:00",
+            "endTime": "2015-02-01T00:00:00.000+08:00",
+            "soFar": null,
+            "top500": null,
+            "isJoin": null,
+            "isOn": false
+          }
+        ],
+        "projects": null,
+        "educations": [
+          {
+            "id": "272793247481331717",
+            "school": "美国南加州大学",
+            "degree": 60,
+            "subject": "法律",
+            "unifiedEnrolment": "Y",
+            "startTime": "2017-08-01T00:00:00.000+08:00",
+            "endTime": "2018-06-01T00:00:00.000+08:00",
+            "soFar": null,
+            "is985": null,
+            "is211": null,
+            "two": null,
+            "isStudyAbroad": null,
+            "qs100": null
+          },
+          {
+            "id": "272793247481331718",
+            "school": "同济大学",
+            "degree": 60,
+            "subject": "法学",
+            "unifiedEnrolment": "Y",
+            "startTime": "2013-09-01T00:00:00.000+08:00",
+            "endTime": "2016-06-01T00:00:00.000+08:00",
+            "soFar": null,
+            "is985": true,
+            "is211": true,
+            "two": true,
+            "isStudyAbroad": null,
+            "qs100": null
+          },
+          {
+            "id": "272793247481331719",
+            "school": "沈阳师范大学",
+            "degree": 50,
+            "subject": "法学",
+            "unifiedEnrolment": "Y",
+            "startTime": "2009-09-01T00:00:00.000+08:00",
+            "endTime": "2013-06-01T00:00:00.000+08:00",
+            "soFar": null,
+            "is985": null,
+            "is211": null,
+            "two": null,
+            "isStudyAbroad": null,
+            "qs100": null
+          }
+        ],
+        "skills": null,
+        "languages": null,
+        "trainings": null,
+        "certificates": null,
+        "resumeFiles": null,
+        "createdBy": {
+          "coId": 1,
+          "orgId": 550,
+          "uid": 107,
+          "appId": 1,
+          "termId": 192410944
+        },
+        "folderIds": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "tags": {
+          "industries": [],
+          "posTags": [
+            {
+              "tagName": "律师",
+              "tagWeight": 1.2564301080465317
+            },
+            {
+              "tagName": "测试默认流程职位01",
+              "tagWeight": 1.0
+            },
+            {
+              "tagName": "律师助理",
+              "tagWeight": 0.4624205011129379
+            },
+            {
+              "tagName": "非诉律师",
+              "tagWeight": 0.3021244940757752
+            },
+            {
+              "tagName": "执业律师",
+              "tagWeight": 0.28585465353727335
+            },
+            {
+              "tagName": "企业法务",
+              "tagWeight": 0.27880888402462006
+            },
+            {
+              "tagName": "企业法律顾问",
+              "tagWeight": 0.27407050126791
+            },
+            {
+              "tagName": "法律顾问",
+              "tagWeight": 0.2733697451949119
+            },
+            {
+              "tagName": "法务专员",
+              "tagWeight": 0.27021312832832334
+            },
+            {
+              "tagName": "新三板律师",
+              "tagWeight": 0.2699842295050621
+            }
+          ],
+          "posTypes": [
+            {
+              "tagName": "律师/法律顾问",
+              "tagWeight": 1.918135246720346
+            },
+            {
+              "tagName": "法务主管/专员",
+              "tagWeight": 0.4883470102588089
+            },
+            {
+              "tagName": "律师助理",
+              "tagWeight": 0.46728135486694994
+            },
+            {
+              "tagName": "法务助理",
+              "tagWeight": 0.166644385991649
+            },
+            {
+              "tagName": "法务经理",
+              "tagWeight": 0.14521162543658858
+            }
+          ],
+          "skillsTags": [
+            {
+              "tagName": "律师",
+              "tagWeight": 0.46222198009490967
+            },
+            {
+              "tagName": "法律事务",
+              "tagWeight": 0.2611595869064331
+            },
+            {
+              "tagName": "司法",
+              "tagWeight": 0.2543560028076172
+            },
+            {
+              "tagName": "尽职调查",
+              "tagWeight": 0.20737967491149903
+            },
+            {
+              "tagName": "股权转让",
+              "tagWeight": 0.20549812316894533
+            },
+            {
+              "tagName": "信息检索",
+              "tagWeight": 0.20522466182708743
+            },
+            {
+              "tagName": "并购",
+              "tagWeight": 0.20174226760864258
+            },
+            {
+              "tagName": "投融资",
+              "tagWeight": 0.1967944860458374
+            },
+            {
+              "tagName": "收购",
+              "tagWeight": 0.18856794834136964
+            },
+            {
+              "tagName": "跨境",
+              "tagWeight": 0.15312278270721436
+            },
+            {
+              "tagName": "行业分析",
+              "tagWeight": 0.139844286441803
+            },
+            {
+              "tagName": "行政",
+              "tagWeight": 0.13962137699127197
+            },
+            {
+              "tagName": "新能源",
+              "tagWeight": 0.13293296098709106
+            },
+            {
+              "tagName": "仲裁",
+              "tagWeight": 0.13047722578048707
+            },
+            {
+              "tagName": "市场",
+              "tagWeight": 0.11895828247070313
+            },
+            {
+              "tagName": "粮食",
+              "tagWeight": 0.1184134840965271
+            },
+            {
+              "tagName": "石油化工",
+              "tagWeight": 0.11654083728790283
+            },
+            {
+              "tagName": "家族信托",
+              "tagWeight": 0.11149716377258301
+            },
+            {
+              "tagName": "投资移民",
+              "tagWeight": 0.1077953577041626
+            }
+          ]
+        },
+        "is985": null,
+        "is211": null,
+        "two": null,
+        "qs100": null,
+        "isUnifiedEnrolment": null,
+        "isStudyAbroad": null,
+        "reTag": null,
+        "highlights": null,
+        "risk": null,
+        "industry": null,
+        "function": null,
+        "industryCode": null,
+        "functionCode": null,
+        "expectFunction": null,
+        "expectFunctionCode": null,
+        "expectedIndustryCode": null,
+        "lastAddDate": null,
+        "isAuthorized": false,
+        "candidateUid": null,
+        "resumeLock": {
+          "coId": 1,
+          "orgId": 538,
+          "uid": 86,
+          "appId": 1,
+          "termId": null,
+          "locked": false,
+          "updatedAt": "2024-04-29T19:44:22.015+08:00",
+          "expireAt": "2024-05-02T23:59:59.015+08:00"
+        },
+        "manualTagIds": null,
+        "manualTagNames": null,
+        "notes": null,
+        "mergedTo": null,
+        "isDeleted": null,
+        "explanation": null,
+        "numOfRemark": 0,
+        "handsOffInfo": {
+          "effect": true,
+          "workExperienceIds": ["307966404970151936"],
+          "companyNames": ["测试退票公司上海分公司"],
+          "approvalProcessId": null,
+          "approvalStatus": null,
+          "processing": false
+        },
+        "resumeNoteMatch": null,
+        "locked": false
+      }
+    ],
+    "keywordTokens": null,
+    "noteTokens": null,
+    "userInfoList": null
+  },
+  "code": 0,
+  "success": true,
+  "failure": false
+}
