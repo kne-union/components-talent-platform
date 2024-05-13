@@ -1,6 +1,6 @@
 {
   "name": "@kne-components/components-talent-platform",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "人才平台组件库",
   "scripts": {
     "init": "husky",
