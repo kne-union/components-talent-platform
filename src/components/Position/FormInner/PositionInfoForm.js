@@ -3,7 +3,7 @@ import { createWithRemoteLoader } from '@kne/remote-loader';
 import style from './style.module.scss';
 
 const FormInner = createWithRemoteLoader({
-  modules: ['FormInfo', 'FormInfo@formModule', 'Enum']
+  modules: ['components-core:FormInfo', 'components-core:FormInfo@formModule', 'components-core:Enum']
 })(({ remoteModules }) => {
   const [FormInfo, formModule, Enum] = remoteModules;
   const { InputNumber, Input, Select, AddressInput, FunctionSelect, TextArea, SalaryInput, IndustrySelect } = formModule;

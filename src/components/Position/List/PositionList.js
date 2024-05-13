@@ -5,7 +5,12 @@ import { getColumns } from './index';
 import { PositionMainForm } from '../FormInner';
 
 const List = createWithRemoteLoader({
-  modules: ['Layout@TablePage', 'Filter@fields', 'FormInfo@useFormModal', 'Global@usePreset']
+  modules: [
+    'components-core:Layout@TablePage',
+    'components-core:Filter@fields',
+    'components-core:FormInfo@useFormModal',
+    'components-core:Global@usePreset'
+  ]
 })(({ remoteModules }) => {
   const [TablePage, filterFields, useFormModal, usePreset] = remoteModules;
   const [filter, setFilter] = useState([]);

@@ -16,7 +16,7 @@ const getColumns = () => {
       type: 'tag'
     },
     {
-      name: 'companyName',
+      name: 'clientName',
       title: '公司名称',
       type: 'other'
     },

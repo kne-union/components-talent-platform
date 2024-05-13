@@ -1,4 +1,4 @@
-const { Detail, COMPANY_NATURE } = _Company;
+const { Detail, enums } = _Company;
 const { enums: resumeEnums } = _Resume;
 const { createWithRemoteLoader } = remoteLoader;
 const { range } = lodash;
@@ -11,7 +11,7 @@ const DetailExample = createWithRemoteLoader({
       preset={{
         enums: {
           ...resumeEnums,
-          companyNature: COMPANY_NATURE
+          ...enums
         },
         apis: {
           company: {

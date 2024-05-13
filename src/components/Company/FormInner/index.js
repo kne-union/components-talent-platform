@@ -1,7 +1,7 @@
 import { createWithRemoteLoader } from '@kne/remote-loader';
 
 const FormInner = createWithRemoteLoader({
-  modules: ['components-core:FormInfo', 'Enum']
+  modules: ['components-core:FormInfo', 'components-core:Enum']
 })(({ remoteModules }) => {
   const [FormInfo, Enum] = remoteModules;
   const { Input, Select, IndustrySelect, AddressSelect, TextArea } = FormInfo.fields;

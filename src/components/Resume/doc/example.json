@@ -1,5 +1,5 @@
 {
-  "isFull": false,
+  "isFull": true,
   "list": [
     {
       "title": "这里填写示例标题",
@@ -9,6 +9,44 @@
         {
           "name": "_Resume",
           "packageName": "@components/Resume"
+        }
+      ]
+    },
+    {
+      "title": "这里填写示例标题",
+      "description": "这里填写示例说明",
+      "code": "./basic-info-header.js",
+      "scope": [
+        {
+          "name": "_Resume",
+          "packageName": "@components/Resume"
+        },
+        {
+          "name": "resumeData",
+          "packageName": "@components/Resume/doc/resume-mock.json"
+        },
+        {
+          "name": "remoteLoader",
+          "packageName": "@kne/remote-loader"
+        }
+      ]
+    },
+    {
+      "title": "这里填写示例标题",
+      "description": "这里填写示例说明",
+      "code": "./list.js",
+      "scope": [
+        {
+          "name": "_Resume",
+          "packageName": "@components/Resume"
+        },
+        {
+          "name": "resumeData",
+          "packageName": "@components/Resume/doc/resume-list-mock.json"
+        },
+        {
+          "name": "remoteLoader",
+          "packageName": "@kne/remote-loader"
         }
       ]
     }
