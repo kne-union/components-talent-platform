@@ -1,19 +1,12 @@
 import { createWithRemoteLoader } from '@kne/remote-loader';
-import { Space, Button } from 'antd';
+import { Space } from 'antd';
 import { getColumns as getPositionListColumns } from '@components/Position';
 
 const Position = createWithRemoteLoader({
-  modules: [
-    'components-core:Table@TablePage',
-    'components-core:Filter',
-    'components-core:Filter@fields',
-    'components-core:Global@usePreset',
-    'components-core:Enum'
-  ]
+  modules: ['components-core:Table@TablePage', 'components-core:Global@usePreset']
 })(({ remoteModules }) => {
-  const [TablePage, Filter, filterFields, usePreset, Enum] = remoteModules;
+  const [TablePage, usePreset] = remoteModules;
 
-  const { InputFilterItem } = filterFields;
   const { apis } = usePreset();
 
   return (

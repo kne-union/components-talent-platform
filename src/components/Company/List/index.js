@@ -11,7 +11,7 @@ const List = createWithRemoteLoader({
     'components-core:Global@usePreset',
     'components-core:Enum'
   ]
-})(({ id, remoteModules }) => {
+})(({ remoteModules }) => {
   const [TablePage, filterFields, useFormModal, usePreset, Enum] = remoteModules;
   const [filter, setFilter] = useState([]);
   const { InputFilterItem, CityFilterItem, IndustrySelectFilterItem } = filterFields;
@@ -19,9 +19,7 @@ const List = createWithRemoteLoader({
   const formModal = useFormModal();
   return (
     <TablePage
-      {...Object.assign({}, apis.company.list, {
-        params: { id }
-      })}
+      {...apis.company.list}
       name="company-list"
       columns={[
         {
