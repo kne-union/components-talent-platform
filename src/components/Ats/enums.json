@@ -1,0 +1,12 @@
+{
+  "interviewWays": [
+    {
+      "description": "线上面试",
+      "value": 1
+    },
+    {
+      "description": "线下面试",
+      "value": 2
+    }
+  ]
+}

@@ -30,7 +30,7 @@ render(<BaseExample />);
 - _Company(@components/Company),remoteLoader(@kne/remote-loader)
 
 ```jsx
-const { FormInner, COMPANY_NATURE } = _Company;
+const { FormInner, enums } = _Company;
 const { createWithRemoteLoader } = remoteLoader;
 
 const FormInnerExample = createWithRemoteLoader({
@@ -40,9 +40,7 @@ const FormInnerExample = createWithRemoteLoader({
   return (
     <PureGlobal
       preset={{
-        enums: {
-          companyNature: COMPANY_NATURE
-        }
+        enums
       }}
     >
       <Form>
@@ -61,7 +59,7 @@ render(<FormInnerExample />);
 - _Company(@components/Company),remoteLoader(@kne/remote-loader),lodash(lodash)
 
 ```jsx
-const { List, COMPANY_NATURE } = _Company;
+const { List, enums } = _Company;
 const { createWithRemoteLoader } = remoteLoader;
 const { range } = lodash;
 const ListExample = createWithRemoteLoader({
@@ -71,9 +69,7 @@ const ListExample = createWithRemoteLoader({
   return (
     <PureGlobal
       preset={{
-        enums: {
-          companyNature: COMPANY_NATURE
-        },
+        enums,
         apis: {
           company: {
             list: {
@@ -113,7 +109,7 @@ render(<ListExample />);
 - _Company(@components/Company),_Resume(@components/Resume),remoteLoader(@kne/remote-loader),lodash(lodash)
 
 ```jsx
-const { Detail, COMPANY_NATURE } = _Company;
+const { Detail, enums } = _Company;
 const { enums: resumeEnums } = _Resume;
 const { createWithRemoteLoader } = remoteLoader;
 const { range } = lodash;
@@ -126,7 +122,7 @@ const DetailExample = createWithRemoteLoader({
       preset={{
         enums: {
           ...resumeEnums,
-          companyNature: COMPANY_NATURE
+          ...enums
         },
         apis: {
           company: {

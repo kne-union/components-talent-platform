@@ -1,4 +1,4 @@
-const { PositionList, POSITION_TYPE_ENUM, POSITION_DEGREE_ENUM, EXPERIENCE_ENUM, POSITION_STATE_ENUM } = _Position;
+const { PositionList, enums } = _Position;
 const { createWithRemoteLoader } = remoteLoader;
 const { range } = _lodash;
 const { processAllData } = _mockData;
@@ -10,12 +10,7 @@ const ListExample = createWithRemoteLoader({
   return (
     <PureGlobal
       preset={{
-        enums: {
-          positionTypeEnum: POSITION_TYPE_ENUM,
-          positionDegreeEnum: POSITION_DEGREE_ENUM,
-          positionStateEnum: POSITION_STATE_ENUM,
-          experienceEnum: EXPERIENCE_ENUM
-        },
+        enums,
         apis: {
           position: {
             list: {
