@@ -1,5 +1,5 @@
 import { createWithRemoteLoader } from '@kne/remote-loader';
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams, useParams } from 'react-router-dom';
 import Fetch from '@kne/react-fetch';
 import { PositionMainForm } from '../FormInner';
 import PositionInfo from './PositionInfo';
@@ -23,13 +23,16 @@ const Detail = createWithRemoteLoader({
   const [StateBarPage, PageHeader, usePreset, useFormModal] = remoteModules;
   const { apis } = usePreset();
   const formModal = useFormModal();
+  const { id } = useParams();
   const [searchParams, setSearchParams] = useSearchParams();
   const activeKey = searchParams.get('tab') || 'info';
   const DetailInner = detailMap[activeKey];
 
   return (
     <Fetch
-      {...Object.assign({}, apis.company.detail)}
+      {...Object.assign({}, apis.position.detail, {
+        params: { id }
+      })}
       render={({ data }) => {
         return (
           <StateBarPage

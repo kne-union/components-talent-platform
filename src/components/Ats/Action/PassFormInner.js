@@ -1,15 +1,15 @@
 import { createWithRemoteLoader } from '@kne/remote-loader';
 import { Alert, Flex } from 'antd';
 
-const InitialScreeningPassFormInner = createWithRemoteLoader({
+const PassFormInner = createWithRemoteLoader({
   modules: ['components-core:FormInfo', 'components-core:Descriptions']
-})(({ remoteModules }) => {
+})(({ remoteModules, currentStage, nextStage }) => {
   const [FormInfo, Descriptions] = remoteModules;
   const { TextArea } = FormInfo.fields;
 
   return (
     <Flex vertical gap={8}>
-      <Alert message={`确定初筛通过吗？点击确定后，候选人将进入面试阶段。`} />
+      <Alert message={`确定${currentStage}通过吗？点击确定后，候选人将进入${nextStage}阶段。`} />
       <Descriptions
         dataSource={[
           [{ label: '候选人姓名', content: '张三' }],
@@ -22,9 +22,9 @@ const InitialScreeningPassFormInner = createWithRemoteLoader({
           ]
         ]}
       />
-      <FormInfo list={[<TextArea label="备注" name="description" block />]} />
+      <FormInfo list={[<TextArea label="备注" name="remark" block />]} />
     </Flex>
   );
 });
 
-export default InitialScreeningPassFormInner;
+export default PassFormInner;

@@ -1,5 +1,5 @@
 import { createWithRemoteLoader } from '@kne/remote-loader';
-import { useSearchParams } from 'react-router-dom';
+import { useParams, useSearchParams } from 'react-router-dom';
 import Fetch from '@kne/react-fetch';
 import FormInner from '../FormInner';
 import ContactsList from './ContactsList';
@@ -63,13 +63,14 @@ const Detail = createWithRemoteLoader({
   const [StateBarPage, PageHeader, usePreset, useFormModal] = remoteModules;
   const { apis } = usePreset();
   const formModal = useFormModal();
+  const { id } = useParams();
   const [searchParams, setSearchParams] = useSearchParams();
   const activeKey = searchParams.get('tab') || 'companyInfo';
   const DetailInner = detailMap[activeKey];
 
   return (
     <Fetch
-      {...Object.assign({}, apis.company.detail)}
+      {...Object.assign({}, apis.company.detail, { params: { id } })}
       render={({ data }) => {
         return (
           <StateBarPage

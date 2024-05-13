@@ -1,2 +1,9 @@
-export { default as processAllData } from './process-all.json';
-export { default as processDetailData } from './position-detail.json';
+import processAllData from './process-all.json';
+import positionDetailData from './position-detail.json';
+
+const mockData = {
+  processAllData,
+  positionDetailData
+};
+
+export default mockData;
