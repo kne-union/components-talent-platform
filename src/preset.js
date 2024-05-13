@@ -7,12 +7,19 @@ import omit from 'lodash/omit';
 
 window.PUBLIC_URL = process.env.PUBLIC_URL;
 
-const componentsCoreRemote = {
-  remote: 'components-core',
-  url: 'https://registry.npmmirror.com',
-  tpl: '{{url}}/@kne-components%2f{{remote}}/{{version}}/files/build',
-  defaultVersion: '0.1.33'
-};
+const componentsCoreRemote =
+  // process.env.NODE_ENV !== 'development' ?
+  {
+    remote: 'components-core',
+    url: 'https://registry.npmmirror.com',
+    tpl: '{{url}}/@kne-components%2f{{remote}}/{{version}}/files/build',
+    defaultVersion: '0.1.34'
+    // } : {
+    //   remote: 'components-core',
+    //   url: 'http://localhost:3001',
+    //   tpl: '{{url}}',
+    //   defaultVersion: '0.1.34'
+  };
 
 remoteLoaderPreset({
   remotes: {

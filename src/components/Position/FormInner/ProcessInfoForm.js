@@ -1,12 +1,10 @@
 import { createWithRemoteLoader } from '@kne/remote-loader';
-import { Space } from 'antd';
 import React from 'react';
 
-import pathImg from './images/path.png';
-import style from './style.module.scss';
+import { ProcessInLabel } from '../ProcessInLabel';
 
 const ProcessInfoForm = createWithRemoteLoader({
-  modules: ['FormInfo', 'FormInfo@formModule', 'Global@usePreset']
+  modules: ['components-core:FormInfo', 'components-core:FormInfo@formModule', 'components-core:Global@usePreset']
 })(({ remoteModules }) => {
   const [FormInfo, formModule, usePreset] = remoteModules;
   const { AdvancedSelect, TextArea } = formModule;
@@ -27,16 +25,7 @@ const ProcessInfoForm = createWithRemoteLoader({
           dataFormat={data => {
             const list = (data || []).map(item => {
               return {
-                label: (
-                  <Space key={item.id}>
-                    <span className={style['process-name']}>{item.desc}：</span>
-                    <Space split={<img src={pathImg} alt="" />}>
-                      {Object.keys(item.phase).map(key => {
-                        return <span>{item.phase[key]}</span>;
-                      })}
-                    </Space>
-                  </Space>
-                ),
+                label: <ProcessInLabel selected={item} />,
                 value: item.id
               };
             });

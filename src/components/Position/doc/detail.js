@@ -1,9 +1,10 @@
-const { PositionList, POSITION_TYPE_ENUM, POSITION_DEGREE_ENUM, EXPERIENCE_ENUM, POSITION_STATE_ENUM } = _Position;
+const { Detail, POSITION_TYPE_ENUM, POSITION_DEGREE_ENUM, EXPERIENCE_ENUM, POSITION_STATE_ENUM } = _Position;
+const { enums: resumeEnums } = _Resume;
 const { createWithRemoteLoader } = remoteLoader;
-const { range } = _lodash;
-const { processAllData } = _mockData;
+const { range } = lodash;
+const { processAllData, processDetailData } = _mockData;
 
-const ListExample = createWithRemoteLoader({
+const DetailExample = createWithRemoteLoader({
   modules: ['components-core:Global@PureGlobal', 'components-core:Layout']
 })(({ remoteModules }) => {
   const [PureGlobal, Layout] = remoteModules;
@@ -11,27 +12,17 @@ const ListExample = createWithRemoteLoader({
     <PureGlobal
       preset={{
         enums: {
+          ...resumeEnums,
           positionTypeEnum: POSITION_TYPE_ENUM,
           positionDegreeEnum: POSITION_DEGREE_ENUM,
           positionStateEnum: POSITION_STATE_ENUM,
           experienceEnum: EXPERIENCE_ENUM
         },
         apis: {
-          position: {
-            list: {
-              loader: async ({ params }) => {
-                return {
-                  pageData: range(0, 50).map(index => {
-                    return {
-                      id: index,
-                      name: '职位名称',
-                      clientName: '职位所属公司名称',
-                      level: '1',
-                      description: '测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试'
-                    };
-                  }),
-                  totalCount: 50
-                };
+          company: {
+            detail: {
+              loader: async () => {
+                return processDetailData.data;
               }
             }
           },
@@ -48,10 +39,10 @@ const ListExample = createWithRemoteLoader({
       }}
     >
       <Layout navigation={{ isFixed: false }}>
-        <PositionList />
+        <Detail />
       </Layout>
     </PureGlobal>
   );
 });
 
-render(<ListExample />);
+render(<DetailExample />);

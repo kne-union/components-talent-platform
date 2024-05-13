@@ -2,10 +2,10 @@ import React from 'react';
 import { createWithRemoteLoader } from '@kne/remote-loader';
 
 const BasicInfoForm = createWithRemoteLoader({
-  modules: ['FormInfo', 'FormInfo@formModule', 'Enum']
+  modules: ['components-core:FormInfo', 'components-core:FormInfo@formModule', 'components-core:Enum']
 })(({ remoteModules }) => {
   const [FormInfo, formModule, Enum] = remoteModules;
-  const { RadioGroup, Input, Select, DatePickerToday, useFormContext } = formModule;
+  const { Input, Select, DatePickerToday, useFormContext } = formModule;
   const { openApi } = useFormContext();
 
   return (
@@ -14,6 +14,7 @@ const BasicInfoForm = createWithRemoteLoader({
       column={2}
       list={[
         <Input name="name" allowClear label="职位名称" rule="REQ LEN-0-100" />,
+        <Input name="clientName" allowClear label="客户名称" rule="REQ LEN-0-100" />,
         <Enum moduleName="positionStateEnum">
           {data => {
             return (

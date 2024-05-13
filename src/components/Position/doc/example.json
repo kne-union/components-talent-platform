@@ -16,7 +16,7 @@
         },
         {
           "name": "_mockData",
-          "packageName": "./mock/process-all.json"
+          "packageName": "./mock"
         }
       ]
     },
@@ -39,7 +39,34 @@
         },
         {
           "name": "_mockData",
-          "packageName": "./mock/process-all.json"
+          "packageName": "./mock"
+        }
+      ]
+    },
+    {
+      "title": "职位详情",
+      "description": "显示职位详情",
+      "code": "./detail.js",
+      "scope": [
+        {
+          "name": "_Position",
+          "packageName": "@components/Position"
+        },
+        {
+          "name": "_Resume",
+          "packageName": "@components/Resume"
+        },
+        {
+          "name": "remoteLoader",
+          "packageName": "@kne/remote-loader"
+        },
+        {
+          "name": "lodash",
+          "packageName": "lodash"
+        },
+        {
+          "name": "_mockData",
+          "packageName": "./mock"
         }
       ]
     }
