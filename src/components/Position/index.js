@@ -1,8 +1,4 @@
-import { PositionList } from './List';
-
-export default PositionList;
-
-export * from './List';
+export { List, getColumns } from './List';
 export * from './FormInner';
 export * from './ProcessInLabel';
 export { default as Detail } from './Detail';

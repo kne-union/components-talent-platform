@@ -2,9 +2,9 @@ const { List, enums } = _Resume;
 const { default: resume } = resumeData;
 const { createWithRemoteLoader } = remoteLoader;
 const BaseExample = createWithRemoteLoader({
-  modules: ['components-core:Global@PureGlobal']
+  modules: ['components-core:Global@PureGlobal', 'components-core:Layout']
 })(({ remoteModules }) => {
-  const [PureGlobal] = remoteModules;
+  const [PureGlobal, Layout] = remoteModules;
   return (
     <PureGlobal
       preset={{
@@ -15,12 +15,19 @@ const BaseExample = createWithRemoteLoader({
                 resolve(window.PUBLIC_URL + '/avatar.png');
               });
             }
+          },
+          resume: {
+            list: {
+              loader: () => resume.data
+            }
           }
         },
         enums
       }}
     >
-      <List dataSource={resume.data.pageData} />
+      <Layout>
+        <List />
+      </Layout>
     </PureGlobal>
   );
 });

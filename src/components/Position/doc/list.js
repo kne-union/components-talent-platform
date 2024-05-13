@@ -1,4 +1,4 @@
-const { PositionList, enums } = _Position;
+const { List, enums } = _Position;
 const { createWithRemoteLoader } = remoteLoader;
 const { range } = _lodash;
 const { processAllData } = _mockData;
@@ -43,7 +43,7 @@ const ListExample = createWithRemoteLoader({
       }}
     >
       <Layout navigation={{ isFixed: false }}>
-        <PositionList />
+        <List />
       </Layout>
     </PureGlobal>
   );
