@@ -8,5 +8,85 @@
       "description": "线下面试",
       "value": 2
     }
+  ],
+  "rejectReason": [
+    {
+      "description": "候选人拒绝",
+      "value": 1
+    },
+    {
+      "description": "面试官淘汰",
+      "value": 2
+    }
+  ],
+  "candidateRejectReason": [
+    {
+      "description": "薪资不匹配",
+      "value": 1
+    },
+    {
+      "description": "工作地点不匹配",
+      "value": 2
+    },
+    {
+      "description": "工作内容不匹配",
+      "value": 3
+    },
+    {
+      "description": "岗位职级不匹配",
+      "value": 4
+    },
+    {
+      "description": "整体意向度不高",
+      "value": 5
+    },
+    {
+      "description": "其他",
+      "value": 6
+    },
+    {
+      "description": "有更好的选择",
+      "value": 7
+    }
+  ],
+  "interviewRejectReason": [
+    {
+      "description": "工作内容不匹配",
+      "value": 3
+    },
+    {
+      "description": "岗位职级不匹配",
+      "value": 4
+    },
+    {
+      "description": "年龄不合适",
+      "value": 11
+    },
+    {
+      "description": "学历不匹配",
+      "value": 13
+    },
+    {
+      "description": "工作经验不匹配",
+      "value": 14
+    },
+    {
+      "description": "其他",
+      "value": 6
+    }
+  ],
+  "interviewResult": [
+    {
+      "description": "通过",
+      "value": 1
+    },
+    {
+      "description": "不通过",
+      "value": 2
+    },
+    {
+      "description": "候选人缺席",
+      "value": 3
+    }
   ]
 }

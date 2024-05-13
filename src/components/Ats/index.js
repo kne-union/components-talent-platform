@@ -6,6 +6,8 @@ const Ats = () => {
 
 export default Ats;
 
+export { default as PassFormInner } from './Action/PassFormInner';
 export { default as ArrangeInterviewFormInner } from './Action/ArrangeInterviewFormInner';
-export { default as InitialScreeningPassFormInner } from './Action/InitialScreeningPassFormInner';
+export { default as RejectFormInner } from './Action/RejectFormInner';
+export { default as FeedbackFormInner } from './Action/FeedbackFormInner';
 export { default as enums } from './enums.json';
