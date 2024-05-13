@@ -29,7 +29,7 @@ const Detail = createWithRemoteLoader({
 
   return (
     <Fetch
-      {...Object.assign({}, apis.company.detail)}
+      {...Object.assign({}, apis.position.detail)}
       render={({ data }) => {
         return (
           <StateBarPage

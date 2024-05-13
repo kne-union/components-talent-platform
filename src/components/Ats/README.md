@@ -16,9 +16,9 @@
 - _Ats(@components/Ats),remoteLoader(@kne/remote-loader)
 
 ```jsx
-const {default:Ats} = _Ats;
-const BaseExample = ()=>{
-    return <Ats />;
+const { default: Ats } = _Ats;
+const BaseExample = () => {
+  return <Ats />;
 };
 
 render(<BaseExample />);
@@ -39,24 +39,29 @@ const BaseExample = createWithRemoteLoader({
   modules: ['components-core:FormInfo@Form', 'components-core:Global@PureGlobal']
 })(({ remoteModules }) => {
   const [Form, PureGlobal] = remoteModules;
-  return <PureGlobal preset={{
-    enums, apis: {
-      user: {
-        getList: async () => {
-          return userData.data;
+  return (
+    <PureGlobal
+      preset={{
+        enums,
+        apis: {
+          user: {
+            getList: async () => {
+              return userData.data;
+            }
+          }
         }
-      }
-    }
-  }}>
-    <Form>
-      <Space direction="vertical">
-        <div>初筛通过:</div>
-        <InitialScreeningPassFormInner />
-        <div>安排面试:</div>
-        <ArrangeInterviewFormInner />
-      </Space>
-    </Form>
-  </PureGlobal>;
+      }}
+    >
+      <Form>
+        <Space direction="vertical">
+          <div>初筛通过:</div>
+          <InitialScreeningPassFormInner />
+          <div>安排面试:</div>
+          <ArrangeInterviewFormInner />
+        </Space>
+      </Form>
+    </PureGlobal>
+  );
 });
 
 render(<BaseExample />);
