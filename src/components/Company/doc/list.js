@@ -1,4 +1,4 @@
-const { List, COMPANY_NATURE } = _Company;
+const { List, enums } = _Company;
 const { createWithRemoteLoader } = remoteLoader;
 const { range } = lodash;
 const ListExample = createWithRemoteLoader({
@@ -8,9 +8,7 @@ const ListExample = createWithRemoteLoader({
   return (
     <PureGlobal
       preset={{
-        enums: {
-          companyNature: COMPANY_NATURE
-        },
+        enums,
         apis: {
           company: {
             list: {

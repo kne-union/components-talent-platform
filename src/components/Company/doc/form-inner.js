@@ -1,4 +1,4 @@
-const { FormInner, COMPANY_NATURE } = _Company;
+const { FormInner, enums } = _Company;
 const { createWithRemoteLoader } = remoteLoader;
 
 const FormInnerExample = createWithRemoteLoader({
@@ -8,9 +8,7 @@ const FormInnerExample = createWithRemoteLoader({
   return (
     <PureGlobal
       preset={{
-        enums: {
-          companyNature: COMPANY_NATURE
-        }
+        enums
       }}
     >
       <Form>
