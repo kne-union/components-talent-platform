@@ -1,0 +1,590 @@
+{
+  "msg": "",
+  "data": {
+    "id": "307574846282268672",
+    "channel": 30,
+    "otherChannelName": null,
+    "createWay": 4,
+    "photo": null,
+    "name": "叶媛媛",
+    "gender": "F",
+    "birth": "1991-04-28T16:52:27.997+08:00",
+    "age": 33,
+    "birthFromAge": null,
+    "degree": 60,
+    "currentLocation": "020",
+    "phoneRegionCode": "US",
+    "phone": "(831)664-8923",
+    "phoneCheck": {
+      "status": 10,
+      "updatedAt": "2024-04-29T16:03:27.636+08:00"
+    },
+    "virtualPhone": null,
+    "virtualPhoneTime": null,
+    "otherPhoneRegionCode": null,
+    "otherPhone": null,
+    "otherPhoneCheck": null,
+    "email": "yeyuanyuansh@163.com",
+    "otherEmail": null,
+    "wechat": null,
+    "cardType": 1,
+    "card": null,
+    "nativePlace": null,
+    "marital": null,
+    "race": null,
+    "nationality": null,
+    "politicalStatus": null,
+    "height": null,
+    "weight": null,
+    "currentStatus": 2,
+    "currentType": null,
+    "currentSalary": "2000",
+    "currentSalaryType": 5,
+    "currentSalaryMin": 2000,
+    "currentSalaryMax": 2000,
+    "expectedSalary": "3000",
+    "expectedSalaryMin": 3000,
+    "expectedSalaryMax": 3000,
+    "expectedSalaryType": 5,
+    "selfRemark": null,
+    "otherInfo": null,
+    "expectedLocations": ["020"],
+    "expectedWorkTitle": "律师",
+    "expectedIndustry": ["计算机硬件/网络设备"],
+    "expectedPositionType": 1,
+    "workExperience": 8,
+    "workStartTime": "2016-01-01T00:00:00.000+08:00",
+    "works": [
+      {
+        "id": "307574846282268673",
+        "company": "上海捷铭律师事务所",
+        "industry": null,
+        "industryCode": null,
+        "type": null,
+        "scale": null,
+        "position": "11111111",
+        "functionCode": null,
+        "department": null,
+        "rank": null,
+        "salary": null,
+        "salaryType": null,
+        "salaryMax": null,
+        "salaryMin": null,
+        "reportTo": null,
+        "subordinatesCount": null,
+        "description": "1.民商事诉讼,包括各类合同纠纷,侵权案件,婚姻继承案件,劳动纠纷案件;\n2.非诉讼业务,包括投资并购类项目,发债项目,企业常年法律顾问服务等。",
+        "departure": null,
+        "startTime": "2019-11-01T00:00:00.000+08:00",
+        "endTime": "2022-06-01T00:00:00.000+08:00",
+        "soFar": null,
+        "top500": null,
+        "isJoin": null,
+        "isOn": false
+      },
+      {
+        "id": "307574846282268674",
+        "company": "上海君伦律师事务所",
+        "industry": null,
+        "industryCode": null,
+        "type": null,
+        "scale": null,
+        "position": "1111111",
+        "functionCode": null,
+        "department": null,
+        "rank": null,
+        "salary": null,
+        "salaryType": null,
+        "salaryMax": null,
+        "salaryMin": null,
+        "reportTo": null,
+        "subordinatesCount": null,
+        "description": "1.主要负责外资银行、内资银行、租赁公司、保险资产公司等金融同业机构的制式合同的制定和修改、基础信贷合同、同业投资、不\n良资产处置、保债计划等业务的法律风险防控,服务的机构包括国泰世华银行及其分支机构、远东银行、上海商储银行、工银亚洲、\n华美银行、中国银行、东方资产、太平资管、远荣租赁等多家金融同业机构;2. 参与重大不良资产收购与重组项目,如东方资产涉及\n的尚都里项目、北京富力又一城项目、重庆江山壹号项目、长沙绿城高尔夫小镇项目等;3. 私募基金相关业务及风险防控,具备包括\n私募基金管理人登记备案及基金产品发行,如宁波青屹、中投中财私募基金管理人登记备案、中投中财基金产品发行;4.企业并购投\n资类项目,如九百投资笑笑亮项目,笑笑亮与网易合作项目等;5.其他法律服务,包括日常法律顾问服务、法律咨询、债权纠纷等事\n项的办理。",
+        "departure": null,
+        "startTime": "2018-06-01T00:00:00.000+08:00",
+        "endTime": "2019-10-01T00:00:00.000+08:00",
+        "soFar": null,
+        "top500": null,
+        "isJoin": null,
+        "isOn": false
+      },
+      {
+        "id": "307574846282268675",
+        "company": "深圳前海新华丝路基金管理有限公司",
+        "industry": null,
+        "industryCode": null,
+        "type": null,
+        "scale": null,
+        "position": "111111111111111",
+        "functionCode": null,
+        "department": null,
+        "rank": null,
+        "salary": null,
+        "salaryType": null,
+        "salaryMax": null,
+        "salaryMin": null,
+        "reportTo": null,
+        "subordinatesCount": null,
+        "description": "1.公司PE、VC项目前期的行业研究、法律尽职调查; 2.公司PE、VC项目涉及的投资并购协议的起草、法律意见书的出具、制定法律\n风险防控措施等; 3.公司涉及项目的”募投管退“全流程法律风险防控; 在职期间具体参与的项目包括量瞻项目、互联网信贷项目、游\n侠汽车项目、重庆金鑫项目、霍尔果斯影视文化等项目等。",
+        "departure": null,
+        "startTime": "2017-11-01T00:00:00.000+08:00",
+        "endTime": "2018-05-01T00:00:00.000+08:00",
+        "soFar": null,
+        "top500": null,
+        "isJoin": null,
+        "isOn": false
+      },
+      {
+        "id": "307574846282268676",
+        "company": "国融证券股份有限公司",
+        "industry": null,
+        "industryCode": null,
+        "type": null,
+        "scale": null,
+        "position": "111111111111",
+        "functionCode": null,
+        "department": null,
+        "rank": null,
+        "salary": null,
+        "salaryType": null,
+        "salaryMax": null,
+        "salaryMin": null,
+        "reportTo": null,
+        "subordinatesCount": null,
+        "description": "新三板挂牌项目及公司债项目,新三板挂牌项目主要负责公开转让说明书等相关申报文件的起草、反馈意见回复及沟通协调与挂牌企\n业、各中介机构的关系;公司债项目主要负责募集说明书、债券发行预案及相关挂牌转让文件的起草,反馈意见的回复及协调与发行\n人、各中介结构的关系,具体参与项目包括新三板挂牌业务: 天星股份、梦图数码、美至科技、厦门兴南阳等新三板企业挂牌业务;\n公司债项目:天星股份非公开发行可转换公司债券项目。",
+        "departure": null,
+        "startTime": "2016-01-01T00:00:00.000+08:00",
+        "endTime": "2017-10-01T00:00:00.000+08:00",
+        "soFar": null,
+        "top500": null,
+        "isJoin": null,
+        "isOn": false
+      }
+    ],
+    "projects": [
+      {
+        "id": "307574846282268677",
+        "name": "境外银行银团贷款项目及银行授信贷款业务",
+        "companyName": "上海君伦律师事务所",
+        "position": null,
+        "description": "项目描述:\n银团贷款项目、授信贷款项目涉及相关协议的起草与审核;办理跨境融资中涉及的股权质押及不动产抵押登记业务。",
+        "responsibilities": null,
+        "startTime": "2018-07-01T00:00:00.000+08:00",
+        "endTime": "2019-10-01T00:00:00.000+08:00",
+        "soFar": false
+      },
+      {
+        "id": "307574846282268678",
+        "name": "银行制式合同的审核与修订",
+        "companyName": "上海君伦律师事务所",
+        "position": null,
+        "description": "项目描述:\n外资银行制式合同的草拟与修订。主要服务的银行包括国泰世华银行及其分支行、远东银行、上海商储银行、工银亚洲、华美银行\n等外资银行。",
+        "responsibilities": null,
+        "startTime": "2018-07-01T00:00:00.000+08:00",
+        "endTime": "2019-10-01T00:00:00.000+08:00",
+        "soFar": false
+      },
+      {
+        "id": "307574846282268679",
+        "name": "不良资产收购与重组项目",
+        "companyName": "上海君伦律师事务所",
+        "position": null,
+        "description": "项目描述:\n1.参与中国银行某支行不良债权项目; 2.参与交通银行某支行不良债权项目的收购与重组; 3.参与中民资管资产包多个项目的收购\n与重组工作。",
+        "responsibilities": null,
+        "startTime": "2018-06-01T00:00:00.000+08:00",
+        "endTime": "2019-10-01T00:00:00.000+08:00",
+        "soFar": false
+      },
+      {
+        "id": "307574846282268680",
+        "name": "私募基金登记备案、产品发行",
+        "companyName": "上海君伦律师事务所",
+        "position": "产品发行",
+        "description": "项目描述:\n参与项目有宁波青屹私募基金管理人登记备案、中投中财私募基金产品发行备案。",
+        "responsibilities": null,
+        "startTime": "2018-06-01T00:00:00.000+08:00",
+        "endTime": "2019-10-01T00:00:00.000+08:00",
+        "soFar": false
+      },
+      {
+        "id": "307574846282268681",
+        "name": "投资类项目",
+        "companyName": "深圳前海新华丝路基金管理有限公司",
+        "position": null,
+        "description": "项目描述:\n寻找合适的投资标的进行投资,包括前期的筛选项目,对项目进行尽职调查及起草相关投资文件。",
+        "responsibilities": null,
+        "startTime": "2017-11-01T00:00:00.000+08:00",
+        "endTime": "2018-05-01T00:00:00.000+08:00",
+        "soFar": false
+      },
+      {
+        "id": "307574846282268682",
+        "name": "发行公司债业务",
+        "companyName": "国融证券股份有限公司",
+        "position": null,
+        "description": "项目描述:\n对发行双创债相关法律、政策等进行研究,与深圳交易所确定发债上传文件资料清单及要求并准备该上传文件,最终取得深圳交易\n所出具的无异议函。",
+        "responsibilities": null,
+        "startTime": "2016-12-01T00:00:00.000+08:00",
+        "endTime": "2017-10-01T00:00:00.000+08:00",
+        "soFar": false
+      },
+      {
+        "id": "307574846282268683",
+        "name": "新三板企业挂牌上市",
+        "companyName": "国融证券股份有限公司",
+        "position": null,
+        "description": "项目描述:\n新三板企业挂牌上市,准备相关申报文件、沟通与协调与各中介机构的关系、股转反馈稿的回复等。",
+        "responsibilities": null,
+        "startTime": "2016-01-01T00:00:00.000+08:00",
+        "endTime": "2017-10-01T00:00:00.000+08:00",
+        "soFar": false
+      }
+    ],
+    "educations": [
+      {
+        "id": "307574846282268684",
+        "school": "伦敦大学",
+        "degree": 60,
+        "subject": "法学",
+        "unifiedEnrolment": "Y",
+        "startTime": "2022-09-01T00:00:00.000+08:00",
+        "endTime": "2023-09-01T00:00:00.000+08:00",
+        "soFar": null,
+        "is985": null,
+        "is211": null,
+        "two": null,
+        "isStudyAbroad": true,
+        "qs100": true
+      },
+      {
+        "id": "307574846282268685",
+        "school": "四川省社会科学院",
+        "degree": 60,
+        "subject": "法学",
+        "unifiedEnrolment": "Y",
+        "startTime": "2013-09-01T00:00:00.000+08:00",
+        "endTime": "2016-06-01T00:00:00.000+08:00",
+        "soFar": null,
+        "is985": null,
+        "is211": null,
+        "two": null,
+        "isStudyAbroad": null,
+        "qs100": null
+      },
+      {
+        "id": "307574846282268686",
+        "school": "中北大学",
+        "degree": 50,
+        "subject": "政治学与行政学",
+        "unifiedEnrolment": "N",
+        "startTime": "2009-09-01T00:00:00.000+08:00",
+        "endTime": "2013-06-01T00:00:00.000+08:00",
+        "soFar": null,
+        "is985": null,
+        "is211": null,
+        "two": null,
+        "isStudyAbroad": null,
+        "qs100": null
+      }
+    ],
+    "skills": [
+      {
+        "name": "法律",
+        "level": null
+      },
+      {
+        "name": "英语",
+        "level": null
+      },
+      {
+        "name": "VC",
+        "level": null
+      }
+    ],
+    "languages": [
+      {
+        "name": "英语",
+        "level": null
+      }
+    ],
+    "trainings": null,
+    "certificates": [
+      {
+        "name": "律师执业证",
+        "startTime": null
+      },
+      {
+        "name": "基金从业资格证书",
+        "startTime": null
+      },
+      {
+        "name": "证券从业资格证",
+        "startTime": null
+      }
+    ],
+    "resumeFiles": {
+      "original": ["FGweJI8BeK_D6zxN7Z1C"],
+      "certificate": null,
+      "report": ["VGzgKI8BeK_D6zxNz50R"]
+    },
+    "createdBy": {
+      "coId": 1,
+      "orgId": 550,
+      "uid": 107,
+      "appId": 1,
+      "termId": 192410944
+    },
+    "folderIds": null,
+    "createdAt": "2024-04-28T17:52:37.818+08:00",
+    "updatedAt": "2024-04-29T16:03:27.637+08:00",
+    "tags": {
+      "industries": [],
+      "posTags": [
+        {
+          "tagName": "律师",
+          "tagWeight": 1.2
+        },
+        {
+          "tagName": "非诉律师",
+          "tagWeight": 0.26195122718811037
+        },
+        {
+          "tagName": "律师助理",
+          "tagWeight": 0.26025173664093015
+        },
+        {
+          "tagName": "法律顾问",
+          "tagWeight": 0.24817908484935758
+        },
+        {
+          "tagName": "执业律师",
+          "tagWeight": 0.24667544603347774
+        },
+        {
+          "tagName": "公司法务",
+          "tagWeight": 0.24463490724563597
+        },
+        {
+          "tagName": "企业法务",
+          "tagWeight": 0.242698073387146
+        },
+        {
+          "tagName": "企业法律顾问",
+          "tagWeight": 0.2408162999153137
+        },
+        {
+          "tagName": "法务专员",
+          "tagWeight": 0.2363584041595459
+        },
+        {
+          "tagName": "新三板律师",
+          "tagWeight": 0.23627310991287231
+        }
+      ],
+      "posTypes": [
+        {
+          "tagName": "律师/法律顾问",
+          "tagWeight": 1.761381695142838
+        },
+        {
+          "tagName": "法务主管/专员",
+          "tagWeight": 0.5811548111911905
+        },
+        {
+          "tagName": "律师助理",
+          "tagWeight": 0.3215105941035006
+        },
+        {
+          "tagName": "法务经理",
+          "tagWeight": 0.15848680028910847
+        },
+        {
+          "tagName": "法务助理",
+          "tagWeight": 0.15025621054843138
+        }
+      ],
+      "skillsTags": [
+        {
+          "tagName": "法律顾问",
+          "tagWeight": 0.5267617559432983
+        },
+        {
+          "tagName": "投资并购",
+          "tagWeight": 0.41919276118278503
+        },
+        {
+          "tagName": "非诉",
+          "tagWeight": 0.3989872360229492
+        },
+        {
+          "tagName": "股权质押",
+          "tagWeight": 0.3548046731948853
+        },
+        {
+          "tagName": "抵押",
+          "tagWeight": 0.34166597366333007
+        },
+        {
+          "tagName": "授信",
+          "tagWeight": 0.3219347620010376
+        },
+        {
+          "tagName": "不动产",
+          "tagWeight": 0.286239972114563
+        },
+        {
+          "tagName": "债权",
+          "tagWeight": 0.2586493122577668
+        },
+        {
+          "tagName": "私募基金",
+          "tagWeight": 0.16547791481018068
+        },
+        {
+          "tagName": "资产处置",
+          "tagWeight": 0.16069815874099733
+        },
+        {
+          "tagName": "不良资产",
+          "tagWeight": 0.15780736923217775
+        },
+        {
+          "tagName": "法律服务",
+          "tagWeight": 0.1568538022041321
+        },
+        {
+          "tagName": "并购",
+          "tagWeight": 0.15584800958633424
+        },
+        {
+          "tagName": "法律咨询",
+          "tagWeight": 0.15388071060180664
+        },
+        {
+          "tagName": "金融同业",
+          "tagWeight": 0.1505747389793396
+        },
+        {
+          "tagName": "尽职调查",
+          "tagWeight": 0.09447055220603943
+        },
+        {
+          "tagName": "行业研究",
+          "tagWeight": 0.08381926774978637
+        },
+        {
+          "tagName": "资管",
+          "tagWeight": 0.08319293022155762
+        },
+        {
+          "tagName": "pe",
+          "tagWeight": 0.07802458167076111
+        },
+        {
+          "tagName": "收购",
+          "tagWeight": 0.07372186541557312
+        },
+        {
+          "tagName": "支行",
+          "tagWeight": 0.04000000000000001
+        }
+      ]
+    },
+    "is985": null,
+    "is211": null,
+    "two": null,
+    "qs100": true,
+    "isUnifiedEnrolment": null,
+    "isStudyAbroad": true,
+    "reTag": false,
+    "highlights": [
+      {
+        "code": 1,
+        "tag": "名校毕业",
+        "desc": "伦敦大学为QS100世界名校大学",
+        "attribute": ["伦敦大学", "QS100世界名校"]
+      }
+    ],
+    "risk": [
+      {
+        "code": 6,
+        "tag": "毕业空档期",
+        "desc": "候选人在伦敦大学就读前有6年3个月空档期",
+        "attribute": ["四川省社会科学院", "6年3个月"]
+      }
+    ],
+    "industry": ["IT服务/系统集成"],
+    "function": ["CMO"],
+    "industryCode": ["001004"],
+    "functionCode": ["001001007"],
+    "expectFunction": ["CMO"],
+    "expectFunctionCode": ["001001007"],
+    "expectedIndustryCode": ["001007"],
+    "lastAddDate": "2024-04-28T17:52:37.818+08:00",
+    "isAuthorized": true,
+    "candidateUid": 898,
+    "resumeLock": null,
+    "manualTagIds": null,
+    "manualTagNames": null,
+    "notes": null,
+    "mergedTo": null,
+    "isDeleted": null,
+    "seqNo": "6784763",
+    "primaryTerm": "1",
+    "version": "25",
+    "updatedBy": {
+      "coId": 1,
+      "orgId": null,
+      "uid": 107,
+      "appId": 1,
+      "termId": null
+    },
+    "inAts": true,
+    "completeScore": {
+      "score": 78,
+      "moduleScore": {
+        "skills": 1,
+        "otherInfo": 0,
+        "works": 18,
+        "projects": 8,
+        "languages": 1,
+        "certificates": 1,
+        "expected": 14,
+        "trainings": 0,
+        "personal": 8,
+        "educations": 15,
+        "basic": 12
+      }
+    },
+    "userInfoList": [
+      {
+        "id": 107,
+        "uid": 107,
+        "email": "lzk18322988679@163.com",
+        "phone": "18322988679",
+        "name": "李白",
+        "englishName": "My Haires goods",
+        "avatar": "",
+        "gender": "M",
+        "state": 0,
+        "createdAt": "2022-08-08T10:41:02.000+08:00",
+        "isAdmin": 0,
+        "updatedAt": "2024-04-26T11:16:42.000+08:00"
+      }
+    ],
+    "handsOffInfo": {
+      "effect": false,
+      "workExperienceIds": null,
+      "companyNames": null,
+      "approvalProcessId": null,
+      "approvalStatus": null,
+      "processing": false
+    },
+    "otherResume": null,
+    "isContact": false,
+    "externalUserId": null,
+    "locked": false
+  },
+  "code": 0,
+  "success": true,
+  "failure": false
+}

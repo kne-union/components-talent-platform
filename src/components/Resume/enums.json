@@ -591,7 +591,10 @@
       "description": "年薪",
       "value": 6
     },
-    { "description": "其他", "value": 7 }
+    {
+      "description": "其他",
+      "value": 7
+    }
   ],
   "phoneStateEnum": [
     {
@@ -617,6 +620,16 @@
     {
       "value": 5,
       "description": "风险号"
+    }
+  ],
+  "genderEnum": [
+    {
+      "value": "F",
+      "description": "女"
+    },
+    {
+      "value": "M",
+      "description": "男"
     }
   ]
 }
