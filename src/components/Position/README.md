@@ -18,7 +18,7 @@
 ```jsx
 const { PositionMainForm, enums } = _Position;
 const { createWithRemoteLoader } = remoteLoader;
-const { processAllData } = _mockData;
+const { default: mockData } = _mockData;
 
 const FormInnerExample = createWithRemoteLoader({
   modules: ['components-core:Global@PureGlobal', 'components-core:FormInfo@Form']
@@ -32,7 +32,7 @@ const FormInnerExample = createWithRemoteLoader({
             getProcessAll: {
               loader: async () => {
                 return new Promise(resolve => {
-                  resolve(processAllData.data);
+                  resolve(mockData.processAllData.data);
                 });
               }
             }
@@ -60,7 +60,7 @@ render(<FormInnerExample />);
 const { List, enums } = _Position;
 const { createWithRemoteLoader } = remoteLoader;
 const { range } = _lodash;
-const { processAllData } = _mockData;
+const { default: mockData } = _mockData;
 
 const ListExample = createWithRemoteLoader({
   modules: ['components-core:Global@PureGlobal', 'components-core:Layout']
@@ -93,7 +93,7 @@ const ListExample = createWithRemoteLoader({
             getProcessAll: {
               loader: async () => {
                 return new Promise(resolve => {
-                  resolve(processAllData.data);
+                  resolve(mockData.processAllData.data);
                 });
               }
             }
@@ -121,7 +121,7 @@ const { Detail, enums } = _Position;
 const { enums: resumeEnums } = _Resume;
 const { createWithRemoteLoader } = remoteLoader;
 const { range } = lodash;
-const { processAllData, positionDetailData } = _mockData;
+const { default: mockData } = _mockData;
 
 const DetailExample = createWithRemoteLoader({
   modules: ['components-core:Global@PureGlobal', 'components-core:Layout']
@@ -138,7 +138,7 @@ const DetailExample = createWithRemoteLoader({
           position: {
             detail: {
               loader: async () => {
-                return positionDetailData.data;
+                return mockData.positionDetailData.data;
               }
             }
           },
@@ -146,7 +146,7 @@ const DetailExample = createWithRemoteLoader({
             getProcessAll: {
               loader: async () => {
                 return new Promise(resolve => {
-                  resolve(processAllData.data);
+                  resolve(mockData.processAllData.data);
                 });
               }
             }

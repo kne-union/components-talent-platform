@@ -1,7 +1,7 @@
 const { List, enums } = _Position;
 const { createWithRemoteLoader } = remoteLoader;
 const { range } = _lodash;
-const { processAllData } = _mockData;
+const { default: mockData } = _mockData;
 
 const ListExample = createWithRemoteLoader({
   modules: ['components-core:Global@PureGlobal', 'components-core:Layout']
@@ -34,7 +34,7 @@ const ListExample = createWithRemoteLoader({
             getProcessAll: {
               loader: async () => {
                 return new Promise(resolve => {
-                  resolve(processAllData.data);
+                  resolve(mockData.processAllData.data);
                 });
               }
             }

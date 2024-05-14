@@ -1,6 +1,6 @@
 const { PositionMainForm, enums } = _Position;
 const { createWithRemoteLoader } = remoteLoader;
-const { processAllData } = _mockData;
+const { default: mockData } = _mockData;
 
 const FormInnerExample = createWithRemoteLoader({
   modules: ['components-core:Global@PureGlobal', 'components-core:FormInfo@Form']
@@ -14,7 +14,7 @@ const FormInnerExample = createWithRemoteLoader({
             getProcessAll: {
               loader: async () => {
                 return new Promise(resolve => {
-                  resolve(processAllData.data);
+                  resolve(mockData.processAllData.data);
                 });
               }
             }
