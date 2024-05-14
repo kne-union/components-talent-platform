@@ -62,6 +62,7 @@ render(<FormInnerExample />);
 const { List, enums } = _Company;
 const { createWithRemoteLoader } = remoteLoader;
 const { range } = lodash;
+
 const ListExample = createWithRemoteLoader({
   modules: ['components-core:Global@PureGlobal', 'components-core:Layout', 'components-core:FormInfo']
 })(({ remoteModules }) => {
