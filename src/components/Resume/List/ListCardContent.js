@@ -67,15 +67,24 @@ const ListCardContent = createWithRemoteLoader({
                 works &&
                 works.length && (
                   <Timeline
+                    className={classnames({
+                      [style['card-info-without-timeline']]: works.length === 1
+                    })}
                     items={works.slice(0, 2).map(work => {
                       const startTime = get(work, 'startTime'),
                         endTime = get(work, 'endTime');
                       return {
                         children: (
-                          <Row>
-                            <Col>{startTime && `${dayjs(startTime).format('YYYY.MM')}-${endTime ? dayjs(endTime).format('YYYY.MM') : '至今'}`}</Col>
-                            <Col>{get(work, 'company')}</Col>
-                            <Col>{get(work, 'position')}</Col>
+                          <Row gutter={8} className={style['card-info-wrap']}>
+                            <Col span={6}>
+                              {startTime && `${dayjs(startTime).format('YYYY.MM')}-${endTime ? dayjs(endTime).format('YYYY.MM') : '至今'}`}
+                            </Col>
+                            <Col span={9} className={style['card-company-position']}>
+                              {get(work, 'company')}
+                            </Col>
+                            <Col span={9} className={style['card-company-position']}>
+                              {get(work, 'position')}
+                            </Col>
                           </Row>
                         )
                       };

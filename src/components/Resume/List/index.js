@@ -15,7 +15,7 @@ const List = createWithRemoteLoader({
   const { apis } = usePreset();
 
   return (
-    <Page noPadding name="resume-list">
+    <Page noPadding name="resume-list" title="人才库">
       <ResumeListInner {...apis.resume.list} />
     </Page>
   );
