@@ -17,6 +17,36 @@
       font-weight: normal;
     }
   }
+
+  .card-info-without-timeline {
+    :global {
+      .ant-timeline-item {
+        .ant-timeline-item-head {
+          border-color: transparent;
+        }
+
+        &:last-child {
+          padding-bottom: 0;
+        }
+      }
+    }
+  }
+  :global {
+    .ant-timeline-item-last {
+      padding-bottom: 0;
+      .ant-timeline-item-content {
+        min-height: 20px;
+      }
+    }
+  }
+
+  .card-info-wrap {
+    .card-company-position {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
 }
 
 .list-item-card-view {
