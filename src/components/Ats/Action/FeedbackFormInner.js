@@ -35,6 +35,7 @@ const FeedbackFormInner = createWithRemoteLoader({
               <RadioGroup
                 label="面试结果"
                 name="result"
+                rule="REQ"
                 options={data.map(({ value, description }) => ({
                   value,
                   label: description
