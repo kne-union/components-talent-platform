@@ -57,7 +57,7 @@ render(<FormInnerExample />);
 - _Position(@components/Position),_lodash(lodash),remoteLoader(@kne/remote-loader),_mockData(./mock)
 
 ```jsx
-const { PositionList, enums } = _Position;
+const { List, enums } = _Position;
 const { createWithRemoteLoader } = remoteLoader;
 const { range } = _lodash;
 const { processAllData } = _mockData;
@@ -102,7 +102,7 @@ const ListExample = createWithRemoteLoader({
       }}
     >
       <Layout navigation={{ isFixed: false }}>
-        <PositionList />
+        <List />
       </Layout>
     </PureGlobal>
   );
@@ -117,11 +117,11 @@ render(<ListExample />);
 - _Position(@components/Position),_Resume(@components/Resume),remoteLoader(@kne/remote-loader),lodash(lodash),_mockData(./mock)
 
 ```jsx
-const { Detail, POSITION_TYPE_ENUM, POSITION_DEGREE_ENUM, EXPERIENCE_ENUM, POSITION_STATE_ENUM } = _Position;
+const { Detail, enums } = _Position;
 const { enums: resumeEnums } = _Resume;
 const { createWithRemoteLoader } = remoteLoader;
 const { range } = lodash;
-const { processAllData, processDetailData } = _mockData;
+const { processAllData, positionDetailData } = _mockData;
 
 const DetailExample = createWithRemoteLoader({
   modules: ['components-core:Global@PureGlobal', 'components-core:Layout']
@@ -132,16 +132,13 @@ const DetailExample = createWithRemoteLoader({
       preset={{
         enums: {
           ...resumeEnums,
-          positionTypeEnum: POSITION_TYPE_ENUM,
-          positionDegreeEnum: POSITION_DEGREE_ENUM,
-          positionStateEnum: POSITION_STATE_ENUM,
-          experienceEnum: EXPERIENCE_ENUM
+          ...enums
         },
         apis: {
-          company: {
+          position: {
             detail: {
               loader: async () => {
-                return processDetailData.data;
+                return positionDetailData.data;
               }
             }
           },
